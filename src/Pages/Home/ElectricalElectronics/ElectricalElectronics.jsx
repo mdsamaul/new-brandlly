@@ -9,7 +9,7 @@ const ElectricalElectronics = () => {
 
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                <BrandCard image={'https://www.brandlly.com/storage/logo/63e2401cf0055.png'} brandName={'SONY'} pathBrand={' & ElectronicsElectrical & ElectronicsElectrical'} subTitle={'#'} pathShopnow={''}></BrandCard>
+                <BrandCard image={'https://www.brandlly.com/storage/logo/63e2401cf0055.png'} brandName={'SONY'} pathBrand={' & ElectronicsElectrical & ElectronicsElectrical'} subTitle={'Electrical & Electronics'} pathShopnow={''}></BrandCard>
                 <BrandCard image={'https://www.brandlly.com/storage/logo/63e23ecc42441.png'} brandName={'Smart'} pathBrand={'#'} subTitle={'Electrical & Electronics'} pathShopnow={'#'}></BrandCard>
                 <BrandCard image={'https://www.brandlly.com/storage/logo/63e23e1919c1e.png'} brandName={'Sharp'} pathBrand={'#'} subTitle={'Electrical & Electronics'} pathShopnow={'#'}></BrandCard>
                 <BrandCard image={'https://www.brandlly.com/storage/logo/63e398090dcd0.png'} brandName={'Philips'} pathBrand={'#'} subTitle={'Electrical & Electronics'} pathShopnow={'#'}></BrandCard>
