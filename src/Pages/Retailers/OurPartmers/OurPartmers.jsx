@@ -1,4 +1,5 @@
 import OurPartnersSlider from "./OurPartnersSlider/OurPartnersSlider.jsx";
+
 const OurPartmers = () => {
     return (
         <div className="container mx-auto mb-10">
@@ -9,7 +10,7 @@ const OurPartmers = () => {
             <div>
                 <OurPartnersSlider />
             </div>
-
+            
         </div>
     );
 };

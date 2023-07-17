@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react';
 // Import Swiper React components
+import { FaLongArrowAltRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/grid';
@@ -53,7 +54,10 @@ const OurPartnersSlider = () => {
 
 
             </Swiper>
-
+            <div className="mt-8 text-center ">
+                <Link to="#"> <button type="btn" className="btn w-64 bg-[#c32148] text-white hover:border hover:border-[#c32148] hover:text-[#c32148] hover:gap-x-3"  >See All {ourPartners.length} Partners <FaLongArrowAltRight />
+                </button></Link>
+            </div>
         </div>
     );
 };

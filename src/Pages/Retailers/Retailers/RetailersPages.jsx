@@ -1,5 +1,6 @@
 import { FaPlayCircle } from 'react-icons/fa';
 import RetailCategories from '../../ScanAndGo/RetailCategories/RetailCategories.jsx';
+import HowBrandllyworks from "../HowBrandllyworks/HowBrandllyworks.jsx";
 import OurPartmers from '../OurPartmers/OurPartmers.jsx';
 const RetailersPages = () => {
     return (
@@ -45,6 +46,7 @@ const RetailersPages = () => {
 
                 <RetailCategories></RetailCategories>
                 <OurPartmers />
+                <HowBrandllyworks />
             </div>
         </div>
     );
