@@ -9,7 +9,7 @@ const HowBrandllyworks = () => {
             </div>
             <div>
                 <div className="flex items-center justify-center">
-                    <div className="px-10 py-5 text-center border border-[#c32148] rounded-2xl">
+                    <div className="px-10 py-5 text-center border-2 border-[#c32148] rounded-2xl">
                         <h4 className='font-semibold text-md text-[#c32148]'>MoU Singing </h4> <br />
                         <span className='px-4 py-2 border border-[#c32148] rounded-full text-white bg-[#c32148]'>1</span>
                     </div>
@@ -20,7 +20,7 @@ const HowBrandllyworks = () => {
 
                     </div>
 
-                    <div className="px-10 py-5 ml-5 text-center border border-[#c32148] rounded-2xl">
+                    <div className="px-10 py-5 ml-5 text-center border-2 border-[#c32148] rounded-2xl">
                         <h4 className='font-semibold text-md text-[#c32148]'>Upload Products </h4> <br />
                         <span className='px-4 py-2 border border-[#c32148] text-white bg-[#c32148] rounded-full bg'>2</span>
                     </div>
@@ -29,7 +29,7 @@ const HowBrandllyworks = () => {
                             <span><hr className='h-1 bg-[#c32148] border-[#c32148] border--2 ' />   </span><FaLongArrowAltRight className='absolute text-3xl -mt-[17px] left-6 text-[#c32148] ' />
                         </div>
                     </div>
-                    <div className="py-10 px-20 ml-5 text-center border border-[#c32148] rounded-2xl">
+                    <div className="py-10 px-20 ml-5 text-center border-2 border-[#c32148] rounded-2xl">
                         <h4 className='text-xl font-bold text-[#c32148]'>Done</h4>
 
                     </div>
