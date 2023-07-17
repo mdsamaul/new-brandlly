@@ -1,3 +1,4 @@
+import DoesWorkSlider from "./DoesWorkSlider/DoesWorkSlider.jsx";
 
 
 const DoesWork = () => {
@@ -47,7 +48,7 @@ const DoesWork = () => {
                     </div>
                 </div>
                 <div>
-                    samaul
+                    <DoesWorkSlider />
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import { FaPlayCircle } from 'react-icons/Fa';
+import { FaPlayCircle } from 'react-icons/fa';
 const MolileSelf = () => {
     return (
         <div className="container grid grid-cols-1 gap-4 px-10 mb-20 lg:grid-cols-5">

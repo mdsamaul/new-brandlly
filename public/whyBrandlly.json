@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Sunflower Field",
+    "subtitle": "A vast field of vibrant sunflowers under the sun.",
+    "imageName": "sunflower.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Majestic Waterfall",
+    "subtitle": "A majestic waterfall flowing down a rocky cliff.",
+    "imageName": "waterfall.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Starry Night",
+    "subtitle": "A mesmerizing view of the night sky filled with stars.",
+    "imageName": "starry-night.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Serenity Lake",
+    "subtitle": "A peaceful lake surrounded by lush greenery.",
+    "imageName": "lake.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Enchanting Forest",
+    "subtitle": "An enchanting forest with a magical atmosphere.",
+    "imageName": "forest.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Snowy Cabin",
+    "subtitle": "A cozy cabin covered in snow during winter.",
+    "imageName": "cabin.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Golden Temple",
+    "subtitle": "A golden temple shining brilliantly in the sunlight.",
+    "imageName": "temple.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Aurora Borealis",
+    "subtitle": "The mesmerizing display of aurora borealis in the night sky.",
+    "imageName": "aurora.jpg"
+  }
+]
