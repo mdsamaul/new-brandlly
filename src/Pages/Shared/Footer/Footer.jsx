@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import ScrollTopBtn from "./ScrollTopBtn/ScrollTopBtn.jsx";
 
 const Footer = () => {
     return (
@@ -42,7 +41,6 @@ const Footer = () => {
                 </div>
 
             </footer>
-            <ScrollTopBtn></ScrollTopBtn>
         </div>
     );
 };

@@ -2,7 +2,7 @@ import BrandCard from "../../../component/BrandCard/BrandCard.jsx";
 
 const ElectricalElectronics = () => {
     return (
-        <div className="mb-10">
+        <div className="mb-10 mx-5 lg:mx-0">
 
 
             <h3 className="text-3xl font-bold text-slate-600">Electrical & Electronics</h3>

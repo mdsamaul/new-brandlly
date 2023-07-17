@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Super Shop",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/super_shop.svg"
+  },
+  {
+    "id": 2,
+    "name": "Fashion",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/fashion.svg"
+  },
+  {
+    "id": 3,
+    "name": "Footwear",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/footwear.svg"
+  },
+  {
+    "id": 4,
+    "name": "Restaurant",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/restaurant.svg"
+  },
+  {
+    "id": 5,
+    "name": "IT & Gadgets",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/it.svg"
+  },
+  {
+    "id": 6,
+    "name": "Jewlry & Cosmetics",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/jewelry.svg"
+  },
+  {
+    "id": 7,
+    "name": "Home & Furniture",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/home.svg"
+  },
+  {
+    "id": 8,
+    "name": "Sport & Gym",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/sports.svg"
+  },
+  {
+    "id": 9,
+    "name": "Venues & Stadium",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/venues.svg"
+  },
+  {
+    "id": 10,
+    "name": "Movies & Theatre",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/movies.svg"
+  },
+  {
+    "id": 11,
+    "name": "Resorts, Zooos & Parks",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/resorts.svg"
+  },
+  {
+    "id": 12,
+    "name": "Filling Stations",
+    "image": "https://www.brandlly.com/assets/landings/assets/images/icons/cat/filling_station.svg"
+  }
+]
