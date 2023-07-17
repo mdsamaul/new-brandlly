@@ -1,7 +1,7 @@
 import { FaPlayCircle } from 'react-icons/fa';
 const MolileSelf = () => {
     return (
-        <div className="container grid grid-cols-1 gap-4 px-10 mb-20 lg:grid-cols-5">
+        <div className="container grid grid-cols-1 gap-4 px-1 mb-20 lg:px-10 lg:grid-cols-5">
             <div className="w-full col-span-3 px-10 text-white">
                 <h2 className="text-4xl font-bold text-white">Brandlly - mobile Self-Checkout</h2>
                 <div className="py-4">

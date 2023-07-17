@@ -11,7 +11,7 @@ const ScanAndGo = () => {
     return (
         <div>
             <div className="hero min-h-[130vh] w-full -mt-24 " style={{ backgroundImage: "url(https://www.brandlly.com/assets/ecommerce/images/hero/hero3.png)" }}>
-                <div >
+                <div className="pt-32 lg:pt-0" >
                     <MolileSelf />
 
                 </div>

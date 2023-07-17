@@ -11,7 +11,7 @@ const FAQSection = () => {
             </div>
             <div className="grid grid-cols-1 text-center lg:grid-cols-2">
                 <div>
-                    <img src="https://www.brandlly.com/assets/landings/assets/images/faq.svg" className="p-10 m-10" alt="" />
+                    <img src="https://www.brandlly.com/assets/landings/assets/images/faq.svg" className="lg:m-10 mx-auto lg:pb-0 pb-10 lg:p-10 w-[420px] lg:w-full" alt="" />
                 </div>
                 <div className="flex items-center justify-center w-full h-full">
                     <div className="">
