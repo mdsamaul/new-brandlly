@@ -2,6 +2,7 @@ import DoesWork from "../DoesWork/DoesWork.jsx";
 import OurPartners from "../OurPartners/OurPartners.jsx";
 import RetailCategories from "../RetailCategories/RetailCategories.jsx";
 import ShopByMaintaining from "../ShopByMaintaining/ShopByMaintaining.jsx";
+import WhyBrandlly from "../WhyBrandlly/WhyBrandlly.jsx";
 import MolileSelf from "./MolileSelf/MolileSelf.jsx";
 
 const ScanAndGo = () => {
@@ -19,6 +20,7 @@ const ScanAndGo = () => {
                 <RetailCategories />
                 <OurPartners />
                 <DoesWork />
+                <WhyBrandlly />
             </div>
         </div>
     );
