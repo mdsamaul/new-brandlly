@@ -1,4 +1,6 @@
+import LetsTryBrandlly from "../../Home/LetsTryBrandlly/LetsTryBrandlly.jsx";
 import DoesWork from "../DoesWork/DoesWork.jsx";
+import FAQSection from "../FAQSection/FAQSection.jsx";
 import OurPartners from "../OurPartners/OurPartners.jsx";
 import RetailCategories from "../RetailCategories/RetailCategories.jsx";
 import ShopByMaintaining from "../ShopByMaintaining/ShopByMaintaining.jsx";
@@ -21,6 +23,8 @@ const ScanAndGo = () => {
                 <OurPartners />
                 <DoesWork />
                 <WhyBrandlly />
+                <FAQSection />
+                <LetsTryBrandlly />
             </div>
         </div>
     );
