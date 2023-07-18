@@ -23,7 +23,7 @@ const OurPartnersSlider = () => {
             .then(data => setOurPartners(data))
             .catch(error => console.log(error))
     }, []);
-    console.log(ourPartners);
+    // console.log(ourPartners);
     return (
         <div>
             <Swiper
