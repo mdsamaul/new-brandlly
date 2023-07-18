@@ -1,3 +1,4 @@
+import { AiFillCaretDown } from 'react-icons/ai';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 
 const HowBrandllyworks = () => {
@@ -8,14 +9,15 @@ const HowBrandllyworks = () => {
                 <p className="mx-auto font-medium text-slate-500 lg:w-1/2 text-md">Being a partner with Brandlly is pretty simple. Just sign our Brand Partner Agreement, List your products and get started to sell. Redefine your business experience.</p>
             </div>
             <div>
-                <div className="flex items-center justify-center">
+                <div className="lg:flex items-center justify-center">
                     <div className="px-10 py-5 text-center border-2 border-[#c32148] rounded-2xl">
                         <h4 className='font-semibold text-md text-[#c32148]'>MoU Singing </h4> <br />
                         <span className='px-4 py-2 border border-[#c32148] rounded-full text-white bg-[#c32148]'>1</span>
                     </div>
                     <div>
-                        <div className='relative w-8'>
-                            <span><hr className='h-1 bg-[#c32148] border-[#c32148] border--2 ' />   </span><FaLongArrowAltRight className='absolute text-3xl -mt-[17px] left-6 text-[#c32148] ' />
+                        <div className='relative lg:w-8 h-20 lg:h-auto '>
+                            <span ><hr className='h-16 w-1 lg:w-10  lg:h-1 bg-[#c32148] border-[#c32148] mx-auto border-2 ' />   </span><FaLongArrowAltRight className='absolute text-3xl -mt-[17px] left-6 text-[#c32148] hidden lg:block' />
+                            <AiFillCaretDown className='lg:hidden mx-auto' />
                         </div>
 
                     </div>
@@ -26,7 +28,7 @@ const HowBrandllyworks = () => {
                     </div>
                     <div>
                         <div className='relative w-8'>
-                            <span><hr className='h-1 bg-[#c32148] border-[#c32148] border--2 ' />   </span><FaLongArrowAltRight className='absolute text-3xl -mt-[17px] left-6 text-[#c32148] ' />
+                            <span><hr className='h-1 bg-[#c32148] border-[#c32148] border-2 ' />   </span><FaLongArrowAltRight className='absolute text-3xl -mt-[17px] left-6 text-[#c32148] ' />
                         </div>
                     </div>
                     <div className="py-10 px-20 ml-5 text-center border-2 border-[#c32148] rounded-2xl">
