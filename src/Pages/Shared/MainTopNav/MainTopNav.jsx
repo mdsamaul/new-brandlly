@@ -1,10 +1,10 @@
 import { Sling as Hamburger } from 'hamburger-react';
 import { useState } from "react";
+import { BsChat } from 'react-icons/bs';
 import { CgProfile } from 'react-icons/cg';
 import { FcHome } from 'react-icons/fc';
 import { FiShoppingBag } from 'react-icons/fi';
 import { LuShoppingCart } from 'react-icons/lu';
-import { BsChat } from 'react-icons/bs';
 import { Link } from "react-router-dom";
 import SingIn from '../SingIn/SingIn.jsx';
 
@@ -15,19 +15,19 @@ const MainTopNav = () => {
         <div>
             <ul className=' flex justify-between items-center h-16'>
                 <li className='hero'>
-                    <Link to="/"><FcHome className='mx-auto text-2xl' /> Home</Link>
+                    <Link to="/"><FcHome className='mx-auto text-md' /> Home</Link>
                 </li>
                 <li className='hero'>
-                    <Link to="/"><FiShoppingBag className='mx-auto text-2xl' />Order</Link>
+                    <Link to="/"><FiShoppingBag className='mx-auto text-md' />Order</Link>
                 </li>
                 <li className='bg-[#c7294f] p-7 flex items-center  w-5 h-10 rounded-full justify-center mb-16'>
                     <Link to="/"><BsChat className=' text-xl text-[#fff] ' /></Link>
                 </li>
                 <li className='hero'>
-                    <Link to="/"><LuShoppingCart className='mx-auto text-2xl' />Shop</Link>
+                    <Link to="/"><LuShoppingCart className='mx-auto text-md' />Shop</Link>
                 </li>
                 <li className='hero'>
-                    <Link to="/"><CgProfile className='mx-auto text-2xl' />My Account</Link>
+                    <Link to="/"><CgProfile className='mx-auto text-md' />Account</Link>
                 </li>
 
 
