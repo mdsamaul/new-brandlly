@@ -15,19 +15,19 @@ const MainTopNav = () => {
         <div>
             <ul className=' flex justify-between items-center h-16'>
                 <li className='hero'>
-                    <Link to="/"><FcHome className='mx-auto text-md' /> Home</Link>
+                    <Link to="/"><FcHome className='mx-auto text-2xl' /> Home</Link>
                 </li>
                 <li className='hero'>
-                    <Link to="/"><FiShoppingBag className='mx-auto text-md' />Order</Link>
+                    <Link to="/"><FiShoppingBag className='mx-auto text-2xl' />Order</Link>
                 </li>
                 <li className='bg-[#c7294f] p-7 flex items-center  w-5 h-10 rounded-full justify-center mb-16'>
                     <Link to="/"><BsChat className=' text-xl text-[#fff] ' /></Link>
                 </li>
                 <li className='hero'>
-                    <Link to="/"><LuShoppingCart className='mx-auto text-md' />Shop</Link>
+                    <Link to="/"><LuShoppingCart className='mx-auto text-2xl' />Shop</Link>
                 </li>
                 <li className='hero'>
-                    <Link to="/"><CgProfile className='mx-auto text-md' />Account</Link>
+                    <Link to="/"><CgProfile className='mx-auto text-2xl' /> Account</Link>
                 </li>
 
 
