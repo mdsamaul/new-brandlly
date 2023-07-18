@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Only for retail Brand’s",
+    "subtitle": "       We will never allow any partner which is not a brand. No non-verified partner will be allowed.",
+    "imageName": "https://www.brandlly.com/assets/landings/assets/images/why/no_checkout_queue.svg"
+  },
+  {
+    "id": 2,
+    "title": "No outlet installation costs",
+    "subtitle": "      Brandlly will help you to grow your business all over the country without any outlet installation costs.",
+    "imageName": "https://www.brandlly.com/assets/landings/assets/images/why/shoping_during_covid.svg"
+  },
+  {
+    "id": 3,
+    "title": "Pay when you sell",
+    "subtitle": "      Brandlly will receive a charge as commission based on sales amount. No commission required if no product is sold through Brandlly.",
+    "imageName": "https://www.brandlly.com/assets/landings/assets/images/why/free_of_cost.svg"
+  },
+  {
+    "id": 4,
+    "title": "Customer Satisfaction",
+    "subtitle": "      No fraudulent discount. Customers will get the brand product with a fair price. Customer satisfaction is the ultimate goal for us.",
+    "imageName": "https://www.brandlly.com/assets/landings/assets/images/why/customer_satisfaction.svg"
+  },
+  {
+    "id": 5,
+    "title": "Cashless, Secure Bank Payment",
+    "subtitle": "     Cashless, secure payment. Payment will be given weekly basis that means 4 payments in a month.",
+    "imageName": "https://www.brandlly.com/assets/landings/assets/images/why/ic_secure_mobile_payment.svg"
+  },
+  {
+    "id": 6,
+    "title": "Mobile Monitoring",
+    "subtitle": "    Monitor all outlet’s sales from Brandlly Partners mobile application. Get real-time analysis of all the branches or outlet’s activities.",
+    "imageName": "https://www.brandlly.com/assets/landings/assets/images/why/mobile_analysis.svg"
+  },
+  {
+    "id": 7,
+    "title": "Performance Analysis",
+    "subtitle": "    You and your branch managers will get the analysis of every staff working with you. Brandlly will show impressive performance analysis data to you.",
+    "imageName": "https://www.brandlly.com/assets/landings/assets/images/why/performance_analysis.svg"
+  },
+  {
+    "id": 8,
+    "title": "24/7 Support",
+    "subtitle": "    We have a strong energetic support team ready 24/7 to serve you. You can call our support number or chat from mobile to get help.",
+    "imageName": "https://www.brandlly.com/assets/landings/assets/images/why/support.svg"
+  }
+]

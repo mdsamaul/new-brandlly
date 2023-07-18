@@ -1,8 +1,11 @@
 import { FaPlayCircle } from 'react-icons/fa';
+import LetsTryBrandlly from '../../Home/LetsTryBrandlly/LetsTryBrandlly.jsx';
 import RetailCategories from '../../ScanAndGo/RetailCategories/RetailCategories.jsx';
 import HowBrandllyworks from "../HowBrandllyworks/HowBrandllyworks.jsx";
-import OurPartmers from '../OurPartmers/OurPartmers.jsx';
 import Msupd from '../HowBrandllyworks/Msupd/Msupd.jsx';
+import OurPartmers from '../OurPartmers/OurPartmers.jsx';
+import RetailersFAQ from '../RetailersFAQ/RetailersFAQ.jsx';
+import RetailersWhyBrandlly from '../RetailersWhyBrandlly/RetailersWhyBrandlly.jsx';
 const RetailersPages = () => {
     return (
         <div>
@@ -34,7 +37,7 @@ const RetailersPages = () => {
                         <img src="https://www.brandlly.com/assets/landings/assets/images/hero/hero2.png" alt="" className="w-[550px] pl-5" />
                         <div className="absolute -ml-7 hero">
                             <a href="https://www.youtube.com/watch?v=ZlxUOfMq7jc">
-                                <div className='z-10 w-16 h-16 duration-1000 bg-red-600 border rounded-full animate-ping'>
+                                <div className='z-10 w-16 h-16 duration-1000 bg-red-600 border rounded-full motion-safe:animate-ping'>
 
                                 </div>
                                 <FaPlayCircle className='z-30 w-16 h-16 -mt-16 text-red-600 bg-white rounded-full ' /></a>
@@ -49,6 +52,9 @@ const RetailersPages = () => {
                 <OurPartmers />
                 <HowBrandllyworks />
                 <Msupd></Msupd>
+                <RetailersWhyBrandlly />
+                <RetailersFAQ />
+                <LetsTryBrandlly />
             </div>
         </div>
     );
