@@ -23,11 +23,12 @@ const SingIn = () => {
                                     <span className="absolute inset-y-0 right-3 flex items-center pl-2">
                                         <IoMdCall className='text-slate-700' />
                                     </span>
-                                    <input className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-stone-500 rounded py-2 pl-3 pr-3 shadow-sm focus:outline-none focus:border-red-800 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search for anything..." type="text" name="search" />
+                                    <input className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-stone-500 rounded py-2 pl-3 pr-3 shadow-sm focus:outline-none focus:border-red-800 focus:ring-red-500 focus:ring-1 sm:text-sm" placeholder="Mobile Number..." type="text" />
                                 </label>
                             </div>
                             <div className="form-control mt-2">
-                                <button className="btn btn-primary bg-[#C7294F] hover:bg-transparent border-2 hover:text-[#C7294F] border-[#C7294F] hover:border-[#C7294F] ">Login</button>
+                                <button className="btn btn-primary bg-[#C7294F] hover:bg-transparent border-2 hover:text-[#C7294F]
+                                 border-[#C7294F] hover:border-[#C7294F] ">Login</button>
 
                                 <button className='btn btn-link mt-3 text-[#C7294F]'>Partner Sing In</button>
                             </div>

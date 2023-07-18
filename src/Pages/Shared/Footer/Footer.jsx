@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import EndFooter from "./EndFooter/EndFooter.jsx";
 
 const Footer = () => {
     return (
         <div className="relative">
             <footer className="footer px-10 py-20 bg-base-200">
 
-                <div className="flex w-full justify-between">
+                <div className="lg:flex lg:w-full justify-between">
                     <div className="flex justify-between lg:w-1/2 ">
                         <div>
                             <span className="footer-title">Brandlly</span>
@@ -25,7 +26,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="w-1/2 px-32">
+                    <div className="lg:w-1/2 lg:px-32">
                         <span className="footer-title">Connect with us</span>
                         <div className="form-control w-80">
                             <label className="label">
@@ -41,6 +42,9 @@ const Footer = () => {
                 </div>
 
             </footer>
+            <div>
+                <EndFooter/>
+            </div>
         </div>
     );
 };

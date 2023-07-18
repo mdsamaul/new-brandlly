@@ -33,7 +33,7 @@ const MainTopNav = () => {
 
     return (
         <>
-        <div className="flex max-w-6xl mx-auto justify-between px-3 py-12 items-center w-full h-20  bg-white">
+            <div id='top' className="flex max-w-6xl mx-auto justify-between px-3 py-12 items-center w-full h-20  bg-white">
             <div className='sm:z-50 bg-white'><img src="https://www.brandlly.com/assets/landings/assets/images/Brandlly-logo.png" className="w-28 h-10 lg:w-64 lg:h-16 " alt="" /></div>
             <div>
                 <ul className=" flex items-center w-full lg:w-auto">
