@@ -19,7 +19,7 @@ const MainTopNav = () => {
         </div>
         <div className="flex items-center z-50  gap-4 ml-8">
             <li><Link to='/singin' className="text-[#c32148] font-semibold underline hover:text-slate-950 duration-500">Sing in</Link></li>
-            <li><Link to='/advertise'><button className="rounded-md hover: btn-outline hover:bg-white hover:text-[#c32148] hover:border hover:border-red-600 duration-500 text-md bg-[#c32148] text-white" style={{ height: '36px', width: '96px' }}>Get Started</button></Link></li>
+            <li><Link to='/getstart'><button className="rounded-md hover: btn-outline hover:bg-white hover:text-[#c32148] hover:border hover:border-red-600 duration-500 text-md bg-[#c32148] text-white" style={{ height: '36px', width: '96px' }}>Get Started</button></Link></li>
         </div>
         <div className='lg:hidden'>
             <Hamburger Sling toggled={isOpen} toggle={setOpen} />
