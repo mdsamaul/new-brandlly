@@ -2,20 +2,23 @@
 const ServicesSection = () => {
     return (
         <div className="">
-            <div className="grid gap-4 mx-4 border my-10 grid-cols-3">
-                <div className="border w-full hero">
-                    <div>
-                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/ic_brand.png" alt="" />
+            <div className="grid gap-4 mx-4 my-10 grid-cols-3">
+                <div className="border rounded w-full hero">
+                    <div className="text-center">
+                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/ic_brand.png" className="w-16 h-16 m-5 mx-auto" alt="" />
+                        <h3 className="text-xs mb-3 font-semibold lg:text-base text-center">Only for Brand Products</h3>
                     </div>
                 </div>
-                <div className="border w-full hero">
+                <div className="border rounded w-full hero">
                     <div>
-                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/cash-on-delivery.png" alt="" />
+                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/cash-on-delivery.png" className="w-16 h-16 m-5 mx-auto" alt="" />
+                        <h3 className="text-xs mb-3 font-semibold lg:text-base text-center">100% Cash on Delivery</h3>
                     </div>
                 </div>
-                <div className="border w-full hero">
+                <div className="border rounded w-full hero">
                     <div>
-                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/ic_money_back.png" alt="" />
+                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/ic_money_back.png" className="w-16 h-16 m-5 mx-auto" alt="" />
+                        <h3 className="text-xs mb-3 font-semibold lg:text-base text-center">15 days Moneyback Guarantee</h3>
                     </div>
                 </div>
 
