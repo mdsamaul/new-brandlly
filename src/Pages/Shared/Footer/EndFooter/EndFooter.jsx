@@ -15,7 +15,7 @@ const EndFooter = () => {
                     <div className='lg:w-[33%] hero'>
                         <img src="https://www.brandlly.com/assets/landings/assets/images/Brandlly-logo.png" className='lg:w-[55%] ' alt="" />
                     </div>
-                    <div className="grid grid-flow-col gap-4 ">
+                    <div className="grid grid-flow-col gap-4 text-center mb-3">
                         <a className="link link-hover">Privacy policy</a>
                         <a className="link link-hover">Terms of use</a>
                         <a className="link link-hover">Trust & security</a>

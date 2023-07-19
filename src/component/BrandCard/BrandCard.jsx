@@ -14,7 +14,7 @@ const BrandCard = ({ fashionProduct }) => {
                 </figure>
                 <div className="card-body px-1 lg:px-2 pt-1 pb-2 items-center text-center">
                     <h2 className="text-base lg:card-title font-semibold p-0 m-0">{brandname}</h2>
-                    <samp className='text-stone-500  m-0'>{category}</samp>
+                    <small className='text-stone-500  m-0'>{category}</small>
                     <div className="card-actions">
                         <button className="btn btn-sm bg-gradient-to-r from-[#c32148] to-[#ea708b] rounded-full mb-2"><span className='animate-pulse text-white capitalize text-sm font-extralight px-3'>Shop Now</span></button>
                     </div>
