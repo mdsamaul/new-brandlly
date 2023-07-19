@@ -67,7 +67,7 @@ const MainTopNav = () => {
 
     const navItems = <>
         <div >
-            <div className={`absolute z-0 bg-white py-5  md:static duration-1000 w-full md:flex md:justify-end left-0  ${isOpen ? '-mt-20 pt-28' : ' -top-40 '}`}>
+            <div className={`absolute z-0  py-5  md:static duration-1000 w-full md:flex md:justify-end left-0  ${isOpen ? '-mt-20 pt-28' : ' -top-40 '}`}>
 
                 <li><Link to='/' className="hover:text-[#c32148] duration-500 text-md text-black px-3" style={{ fontWeight: '400' }}>Shop</Link></li>
                 <li><Link to='/scan&go' className="hover:text-[#c32148] duration-500 text-md text-black px-3" style={{ fontWeight: '400' }}>Scan & Go</Link></li>
@@ -91,12 +91,11 @@ const MainTopNav = () => {
 
     return (
         <div>
-            <div className="lg:flex mx-auto lg:justify-between lg:px-3 lg:items-center w-full lg:h-20  bg-white ">
-                <div className='z-50 hidden lg:block bg-white'><img src="https://www.brandlly.com/assets/landings/assets/images/Brandlly-logo.png" className="w-28 h-10 lg:w-64 lg:h-16 " alt="" /></div>
-                <div className=''>
+            <div className="lg:flex shadow lg:justify-between lg:px-3 lg:items-center w-full lg:h-16  bg-white bg-opacity-90">
+                <div className='z-50 hidden pl-10  bg-opacity-90 lg:block '>
+                    <img src="https://i.ibb.co/7QWnQz6/Brandlly-Transparent.png" className=" lg:w-64 lg:h-16 p-2 " alt="" /></div>
+                <div className=' pr-10'>
                     <div className='hidden lg:block'>
-
-
                         <ul className=" flex items-center w-full lg:w-auto">
                     {navItems}
                 </ul>

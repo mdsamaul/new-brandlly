@@ -7,7 +7,7 @@ const BrandCard = ({ image, brandName, pathBrand, subTitle, pathShopnow }) => {
                 <Link to={pathBrand} className="lg:m-10 sm:mx-3 "><img src={image} className="rounded-xl px-10 " /></Link>
             </figure>
             <div className=" items-center text-center">
-                <Link to={pathBrand} className="font-medium text-black lg:mt-12  duration-700 hover:text-[#c32148]">{brandName}</Link>
+                <Link to={pathBrand} className="font-medium text-black lg:mt-12 text-base  duration-700 hover:text-[#c32148]">{brandName}</Link>
 
                 <p className="font-light text-sm text-slate-400">{subTitle}</p>
                 <div className="card-actions flex justify-center lg:mt-6 mt-3">

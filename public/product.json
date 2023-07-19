@@ -1,0 +1,640 @@
+[
+  {
+    "id": 1,
+    "productname": "Premium Casual Panjabi | TMP-1028",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-623.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-237.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-965.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-594.jpg",
+    "rating": 4.2,
+    "brandname": "Topman Bangladesh",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e2456f974e0.png",
+    "category": "Fashion",
+    "price": 39.99,
+    "color": "Red",
+    "ondisplay": true,
+    "productsize": ["M", "L", "XL", "XXL"],
+    "quantity": 75,
+    "productdetails": "Premium Panjabi With A Traditional & New Generation Style From Our Exclusive Collection Of Topman Bangladesh.",
+    "productmaterial": "Cotton",
+    "buttonmaterial": "Plastic",
+    "size&fit": "Regular fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "happyCustomer123",
+        "rating": 5,
+        "review": "I love it! Fits perfectly and looks great.",
+        "date": "2023-07-10"
+      },
+      {
+        "id": 2,
+        "username": "fashionQueen",
+        "rating": 4,
+        "review": "Nice color but slightly tight around the arms.",
+        "date": "2023-07-15"
+      },
+      {
+        "id": 3,
+        "username": "sportsFanatic",
+        "rating": 4.5,
+        "review": "Comfortable to wear during workouts.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 4,
+        "username": "casualShopper",
+        "rating": 3.5,
+        "review": "Decent product but the price could be lower.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "shopaholic22",
+        "rating": 5,
+        "review": "This is my second purchase. Highly recommended!",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "productname": "Philips Dryer BHC017",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_philips-bhc-017-239.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_philips-bhc-017-938.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_philips-bhc-017-271.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_philips-bhc-017-114.jpg",
+    "rating": 3.9,
+    "brandname": "Philips",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e398090dcd0.png",
+    "category": "Electrical-&-Electronics",
+    "price": 29.99,
+    "color": "Blue",
+    "ondisplay": true,
+    "productsize": ["S", "M", "L"],
+    "quantity": 60,
+    "productdetails": "This trendy product is perfect for casual occasions.",
+    "productmaterial": "Polyester",
+    "buttonmaterial": "Metal",
+    "size&fit": "Slim fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "fashionista007",
+        "rating": 4,
+        "review": "Stylish and comfortable, but a bit pricey.",
+        "date": "2023-07-15"
+      },
+      {
+        "id": 2,
+        "username": "casualshopper",
+        "rating": 3,
+        "review": "Not as expected. Material feels cheap.",
+        "date": "2023-07-16"
+      },
+      {
+        "id": 3,
+        "username": "trendsetter99",
+        "rating": 5,
+        "review": "My new favorite! Fits perfectly.",
+        "date": "2023-07-17"
+      },
+      {
+        "id": 4,
+        "username": "shoppingaddict",
+        "rating": 4.5,
+        "review": "Love the design, but limited color options.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "fashionlover",
+        "rating": 5,
+        "review": "High-quality product. Worth the price.",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "productname": "Men Sky Blue Hooded Sweatshirt",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_freedom-bangladesh-20221021-340-752.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_freedom-bangladesh-20221021-340-999.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_freedom-bangladesh-20221021-340-752.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_freedom-bangladesh-20221021-340-999.jpg",
+    "rating": 4.8,
+    "brandname": "    Freedom Bangladesh",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e242e9db64d.png",
+    "category": "Fashion",
+    "price": 49.99,
+    "color": "Black",
+    "ondisplay": false,
+    "productsize": ["S", "M", "L", "XL"],
+    "quantity": 40,
+    "productdetails": "This classic black product is suitable for formal events.",
+    "productmaterial": "Silk",
+    "buttonmaterial": "Metal",
+    "size&fit": "Regular fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "formalAttire",
+        "rating": 5,
+        "review": "Elegant and comfortable. Perfect for weddings!",
+        "date": "2023-07-12"
+      },
+      {
+        "id": 2,
+        "username": "styleIcon",
+        "rating": 4,
+        "review": "Slightly loose, but the material is excellent.",
+        "date": "2023-07-17"
+      },
+      {
+        "id": 3,
+        "username": "classyLady",
+        "rating": 5,
+        "review": "I received many compliments. Impressed!",
+        "date": "2023-07-19"
+      },
+      {
+        "id": 4,
+        "username": "shoppingExpert",
+        "rating": 4.5,
+        "review": "Highly recommended for formal occasions.",
+        "date": "2023-07-19"
+      },
+      {
+        "id": 5,
+        "username": "fashionGuru",
+        "rating": 5,
+        "review": "Love the quality. Will buy from this brand again.",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "productname": "Men slim fit printed casual shirt.",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_styledoor-3214801-138.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_styledoor-3214801-527.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_styledoor-3214801-138.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_styledoor-3214801-936.jpg",
+    "rating": 3.5,
+    "brandname": "StyleDoor",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e241657b9c1.png",
+    "category": "Fashion",
+    "price": 24.99,
+    "color": "Green",
+    "ondisplay": true,
+    "productsize": ["M", "L"],
+    "quantity": 30,
+    "productdetails": "This casual and eco-friendly product is perfect for everyday wear.",
+    "productmaterial": "Organic Cotton",
+    "buttonmaterial": "Wood",
+    "size&fit": "Loose fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "ecoWarrior",
+        "rating": 4,
+        "review": "Love the sustainable material, but it shrinks after washing.",
+        "date": "2023-07-14"
+      },
+      {
+        "id": 2,
+        "username": "natureLover",
+        "rating": 3,
+        "review": "The color is slightly different from the picture.",
+        "date": "2023-07-16"
+      },
+      {
+        "id": 3,
+        "username": "organicFashionista",
+        "rating": 4,
+        "review": "Great concept, but the fit could be better.",
+        "date": "2023-07-17"
+      },
+      {
+        "id": 4,
+        "username": "greenLiving",
+        "rating": 3.5,
+        "review": "Comfortable, but the price is a bit high for a basic tee.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "environmentallyConscious",
+        "rating": 4.5,
+        "review": "I appreciate the eco-friendly approach of this brand.",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "productname": "Embroidered Stitched Georgette Shalwar Kameez",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_foring-mfb-17427-814.JPG",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_foring-mfb-17366-697.JPG",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_foring-mfb-17406-586.JPG",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_foring-mfb-17440-216.JPG",
+    "rating": 4.6,
+    "brandname": "Foring",
+    "brandlogo": "https://www.brandlly.com/storage/logo/6485b5f2869cc.png",
+    "category": "Fashion",
+    "price": 34.99,
+    "color": "White",
+    "ondisplay": false,
+    "productsize": ["S", "M", "L", "XL", "XXL"],
+    "quantity": 25,
+    "productdetails": "This comfortable and versatile product is a must-have for any wardrobe.",
+    "productmaterial": "Blend of Cotton and Polyester",
+    "buttonmaterial": "Plastic",
+    "size&fit": "Regular fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "fashionAddict",
+        "rating": 5,
+        "review": "Perfect! Looks great with any outfit.",
+        "date": "2023-07-10"
+      },
+      {
+        "id": 2,
+        "username": "styleChameleon",
+        "rating": 4,
+        "review": "Slightly see-through, but the material is comfortable.",
+        "date": "2023-07-15"
+      },
+      {
+        "id": 3,
+        "username": "casualChic",
+        "rating": 5,
+        "review": "Versatile and well-made. Great value for money.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 4,
+        "username": "wardrobeEssentials",
+        "rating": 4.5,
+        "review": "I wear this product all the time. It's a staple in my closet.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "fashionEnthusiast",
+        "rating": 5,
+        "review": "Absolutely love it! Will buy more colors.",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "productname": "KD-50X75K | 50\" | 4K Ultra HD | High Dynamic Range (HDR) | Smart TV (Google TV)",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_sony-smart-kd-50x75k-751.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_sony-smart-kd-50x75k-236.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_sony-smart-kd-50x75k-882.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_sony-smart-kd-50x75k-236.jpg",
+    "rating": 4.0,
+    "brandname": "SONY",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e2401cf0055.png",
+    "category": "Electrical-&-Electronics",
+    "price": 44.99,
+    "color": "Brown",
+    "ondisplay": true,
+    "productsize": ["M", "L", "XL"],
+    "quantity": 20,
+    "productdetails": "This warm and stylish product is perfect for colder seasons.",
+    "productmaterial": "Wool",
+    "buttonmaterial": "Wood",
+    "size&fit": "Slim fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "fashionista007",
+        "rating": 4,
+        "review": "Stylish and comfortable, but a bit pricey.",
+        "date": "2023-07-15"
+      },
+      {
+        "id": 2,
+        "username": "casualshopper",
+        "rating": 3,
+        "review": "Not as expected. Material feels cheap.",
+        "date": "2023-07-16"
+      },
+      {
+        "id": 3,
+        "username": "trendsetter99",
+        "rating": 5,
+        "review": "My new favorite! Fits perfectly.",
+        "date": "2023-07-17"
+      },
+      {
+        "id": 4,
+        "username": "shoppingaddict",
+        "rating": 4.5,
+        "review": "Love the design, but limited color options.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "fashionlover",
+        "rating": 5,
+        "review": "High-quality product. Worth the price.",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "productname": "32\" Basic HD LED TV",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_smart-sel-32l22ks-855.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_smart-sel-32l22ks-713.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_smart-sel-32l22ks-855.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_smart-sel-32l22ks-892.jpg",
+    "rating": 4.0,
+    "brandname": "Smart",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e23ecc42441.png",
+    "category": "Electrical-&-Electronics",
+    "price": 44.99,
+    "color": "Brown",
+    "ondisplay": true,
+    "productsize": ["M", "L", "XL"],
+    "quantity": 20,
+    "productdetails": "This warm and stylish product is perfect for colder seasons.",
+    "productmaterial": "Wool",
+    "buttonmaterial": "Wood",
+    "size&fit": "Slim fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "fashionista007",
+        "rating": 4,
+        "review": "Stylish and comfortable, but a bit pricey.",
+        "date": "2023-07-15"
+      },
+      {
+        "id": 2,
+        "username": "casualshopper",
+        "rating": 3,
+        "review": "Not as expected. Material feels cheap.",
+        "date": "2023-07-16"
+      },
+      {
+        "id": 3,
+        "username": "trendsetter99",
+        "rating": 5,
+        "review": "My new favorite! Fits perfectly.",
+        "date": "2023-07-17"
+      },
+      {
+        "id": 4,
+        "username": "shoppingaddict",
+        "rating": 4.5,
+        "review": "Love the design, but limited color options.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "fashionlover",
+        "rating": 5,
+        "review": "High-quality product. Worth the price.",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "productname": "SHARP 2-Door Side By Side Refrigerator SJ-ESB621X-BK | 521 Liters",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_sharp-sj-esb621x-bk-612.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_sharp-sj-esb621x-bk-254.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_sharp-sj-esb621x-bk-612.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_sharp-sj-esb621x-bk-335.jpg",
+    "rating": 4.0,
+    "brandname": "Sharp",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e23e1919c1e.png",
+    "category": "Electrical-&-Electronics",
+    "price": 44.99,
+    "color": "Brown",
+    "ondisplay": true,
+    "productsize": ["M", "L", "XL"],
+    "quantity": 20,
+    "productdetails": "This warm and stylish product is perfect for colder seasons.",
+    "productmaterial": "Wool",
+    "buttonmaterial": "Wood",
+    "size&fit": "Slim fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "fashionista007",
+        "rating": 4,
+        "review": "Stylish and comfortable, but a bit pricey.",
+        "date": "2023-07-15"
+      },
+      {
+        "id": 2,
+        "username": "casualshopper",
+        "rating": 3,
+        "review": "Not as expected. Material feels cheap.",
+        "date": "2023-07-16"
+      },
+      {
+        "id": 3,
+        "username": "trendsetter99",
+        "rating": 5,
+        "review": "My new favorite! Fits perfectly.",
+        "date": "2023-07-17"
+      },
+      {
+        "id": 4,
+        "username": "shoppingaddict",
+        "rating": 4.5,
+        "review": "Love the design, but limited color options.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "fashionlover",
+        "rating": 5,
+        "review": "High-quality product. Worth the price.",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "productname": "Havells SUPERMIX NV 700W Mixer Grinder",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_havells-supermix-nv-700w-659.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_havells-supermix-nv-700w-317.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_havells-supermix-nv-700w-943.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_havells-supermix-nv-700w-659.jpg",
+    "rating": 4.0,
+    "brandname": "Havells",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e894fd365a4.png",
+    "category": "Electrical-&-Electronics",
+    "price": 44.99,
+    "color": "Brown",
+    "ondisplay": true,
+    "productsize": ["M", "L", "XL"],
+    "quantity": 20,
+    "productdetails": "This warm and stylish product is perfect for colder seasons.",
+    "productmaterial": "Wool",
+    "buttonmaterial": "Wood",
+    "size&fit": "Slim fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "fashionista007",
+        "rating": 4,
+        "review": "Stylish and comfortable, but a bit pricey.",
+        "date": "2023-07-15"
+      },
+      {
+        "id": 2,
+        "username": "casualshopper",
+        "rating": 3,
+        "review": "Not as expected. Material feels cheap.",
+        "date": "2023-07-16"
+      },
+      {
+        "id": 3,
+        "username": "trendsetter99",
+        "rating": 5,
+        "review": "My new favorite! Fits perfectly.",
+        "date": "2023-07-17"
+      },
+      {
+        "id": 4,
+        "username": "shoppingaddict",
+        "rating": 4.5,
+        "review": "Love the design, but limited color options.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "fashionlover",
+        "rating": 5,
+        "review": "High-quality product. Worth the price.",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "productname": "Nipro Premier S Blood Glucose Monitoring System",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_nipro-premier-s-glucometer-351.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_nipro-premier-s-glucometer-365.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_nipro-premier-s-glucometer-665.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_nipro-premier-s-glucometer-365.jpg",
+    "rating": 4.0,
+    "brandname": "Nipro",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e89990724dd.png",
+    "category": "Electrical-&-Electronics",
+    "price": 44.99,
+    "color": "Brown",
+    "ondisplay": true,
+    "productsize": ["M", "L", "XL"],
+    "quantity": 20,
+    "productdetails": "This warm and stylish product is perfect for colder seasons.",
+    "productmaterial": "Wool",
+    "buttonmaterial": "Wood",
+    "size&fit": "Slim fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "fashionista007",
+        "rating": 4,
+        "review": "Stylish and comfortable, but a bit pricey.",
+        "date": "2023-07-15"
+      },
+      {
+        "id": 2,
+        "username": "casualshopper",
+        "rating": 3,
+        "review": "Not as expected. Material feels cheap.",
+        "date": "2023-07-16"
+      },
+      {
+        "id": 3,
+        "username": "trendsetter99",
+        "rating": 5,
+        "review": "My new favorite! Fits perfectly.",
+        "date": "2023-07-17"
+      },
+      {
+        "id": 4,
+        "username": "shoppingaddict",
+        "rating": 4.5,
+        "review": "Love the design, but limited color options.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "fashionlover",
+        "rating": 5,
+        "review": "High-quality product. Worth the price.",
+        "date": "2023-07-19"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "productname": "Deli Scientific Calculator ED991ES",
+    "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_deli-ed991es-169.jpg",
+    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_deli-ed991es-164.jpg",
+    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_deli-ed991es-169.jpg",
+    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_deli-ed991es-811.jpg",
+    "rating": 4.0,
+    "brandname": "Deli",
+    "brandlogo": "https://www.brandlly.com/storage/logo/63e2460c3f9c6.png",
+    "category": "Stationery-&-Tools",
+    "price": 44.99,
+    "color": "Brown",
+    "ondisplay": true,
+    "productsize": ["M", "L", "XL"],
+    "quantity": 20,
+    "productdetails": "This warm and stylish product is perfect for colder seasons.",
+    "productmaterial": "Wool",
+    "buttonmaterial": "Wood",
+    "size&fit": "Slim fit",
+    "productreviews": [
+      {
+        "id": 1,
+        "username": "fashionista007",
+        "rating": 4,
+        "review": "Stylish and comfortable, but a bit pricey.",
+        "date": "2023-07-15"
+      },
+      {
+        "id": 2,
+        "username": "casualshopper",
+        "rating": 3,
+        "review": "Not as expected. Material feels cheap.",
+        "date": "2023-07-16"
+      },
+      {
+        "id": 3,
+        "username": "trendsetter99",
+        "rating": 5,
+        "review": "My new favorite! Fits perfectly.",
+        "date": "2023-07-17"
+      },
+      {
+        "id": 4,
+        "username": "shoppingaddict",
+        "rating": 4.5,
+        "review": "Love the design, but limited color options.",
+        "date": "2023-07-18"
+      },
+      {
+        "id": 5,
+        "username": "fashionlover",
+        "rating": 5,
+        "review": "High-quality product. Worth the price.",
+        "date": "2023-07-19"
+      }
+    ]
+  }
+]
