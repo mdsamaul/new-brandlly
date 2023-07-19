@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import BrandCard from "../../../component/BrandCard/BrandCard.jsx";
 
 const Fashion = () => {
 
@@ -14,19 +15,42 @@ const Fashion = () => {
     // console.log(fashion);
     // "category": "Electrical-&-Electronics"
 
-    const fashionProduct = fashion.filter(fashionProduct => fashionProduct.category === "Fashion");
+    const fashionProducts = fashion.filter(fashionProduct => fashionProduct.category === "Fashion");
     const electricalElectronicsProducts = fashion.filter(electricalElectronicsProduct => electricalElectronicsProduct.category === "Electrical-&-Electronics");
     const stationeryToolsProducts = fashion.filter(stationeryProducts => stationeryProducts.category === "Stationery-&-Tools");
 
-    // console.log(fashionProduct);
+    // console.log(fashionProducts);
     // console.log("electricalElectronicsProducts product", electricalElectronicsProducts);
     // console.log("fashion stationeryToolsProducts", stationeryToolsProducts);
 
 
     return (
 
-        <div>
-
+        <div className="p-3 container">
+            <div className="py-7">
+                <h3 className="text-base font-semibold lg:text-3xl lg:font-bold">Fashion</h3>
+            </div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+                {
+                    fashionProducts.map(fashionProduct => <BrandCard key={fashionProduct.id} fashionProduct={fashionProduct}></BrandCard>)
+                }
+            </div>
+            <div className="py-7">
+                <h3 className="text-base font-semibold lg:text-3xl lg:font-bold">Electrical & Electronics</h3>
+            </div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+                {
+                    electricalElectronicsProducts.map(fashionProduct => <BrandCard key={fashionProduct.id} fashionProduct={fashionProduct}></BrandCard>)
+                }
+            </div>
+            <div className="py-7">
+                <h3 className="text-base font-semibold lg:text-3xl lg:font-bold">Stationery & Tools</h3>
+            </div>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+                {
+                    stationeryToolsProducts.map(fashionProduct => <BrandCard key={fashionProduct.id} fashionProduct={fashionProduct}></BrandCard>)
+                }
+            </div>
         </div>
         // <div className="mb-10 mx-5 lg:mx-0">
 

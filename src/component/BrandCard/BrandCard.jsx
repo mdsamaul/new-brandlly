@@ -1,17 +1,23 @@
-import { Link } from "react-router-dom";
+import React from 'react';
 
-const BrandCard = ({ image, brandName, pathBrand, subTitle, pathShopnow }) => {
+const BrandCard = ({ fashionProduct }) => {
+    // console.log(fashionProduct.brandlogo);
+    // console.log(fashionProduct.category);
+    // console.log(fashionProduct.brandname);
+    const { brandlogo, category, brandname } = fashionProduct;
+    console.log(brandlogo, category, brandname);
     return (
-        <div className="card  mx-2 lg:mx-0 my-2 lg:my-3 lg:w-64 lg:h-60 bg-base-100 pb-4 rounded-2xl shadow-xl">
-            <figure className="">
-                <Link to={pathBrand} className="lg:m-10 sm:mx-3 "><img src={image} className="rounded-xl px-10 " /></Link>
-            </figure>
-            <div className=" items-center text-center">
-                <Link to={pathBrand} className="font-medium text-black lg:mt-12 text-base  duration-700 hover:text-[#c32148]">{brandName}</Link>
-
-                <p className="font-light text-sm text-slate-400">{subTitle}</p>
-                <div className="card-actions flex justify-center lg:mt-6 mt-3">
-                    <Link to={pathShopnow}><button className="w-32 h-8 bg-gradient-to-r from-pink-800 to-pink-500  hover:from-pink-500 hover:to-pink-800 duration-1000 text-white rounded-full">Shop Now</button></Link>
+        <div>
+            <div className="card w-full bg-base-100 shadow-xl mb-5">
+                <figure className="px-10 pt-1 border">
+                    <img src={brandlogo} className="rounded-xl" />
+                </figure>
+                <div className="card-body px-1 lg:px-2 pt-1 pb-2 items-center text-center">
+                    <h2 className="text-base lg:card-title font-semibold p-0 m-0">{brandname}</h2>
+                    <samp className='text-stone-500  m-0'>{category}</samp>
+                    <div className="card-actions">
+                        <button className="btn btn-sm bg-gradient-to-r from-[#c32148] to-[#ea708b] rounded-full mb-2"><span className='animate-pulse text-white capitalize text-sm font-extralight px-3'>Shop Now</span></button>
+                    </div>
                 </div>
             </div>
         </div>
