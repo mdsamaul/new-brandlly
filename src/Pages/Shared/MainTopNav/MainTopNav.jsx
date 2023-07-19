@@ -76,7 +76,7 @@ const MainTopNav = () => {
 
             </div>
         </div>
-        <div className="flex items-center z-50  gap-4 ml-8">
+        <div className="flex items-center z-30  gap-4 ml-8">
 
             <li>
                 <button className="btn btn-link  text-[#c32148] font-semibold underline hover:text-slate-950 duration-500" onClick={() => window.my_modal_4.showModal()}>Sing_in</button></li>
@@ -92,7 +92,7 @@ const MainTopNav = () => {
     return (
         <div>
             <div className="lg:flex shadow lg:justify-between lg:px-3 lg:items-center w-full lg:h-16  bg-white bg-opacity-90">
-                <div className='z-50 hidden pl-10  bg-opacity-90 lg:block '>
+                <div className='z-30 hidden pl-10  bg-opacity-90 lg:block '>
                     <img src="https://i.ibb.co/7QWnQz6/Brandlly-Transparent.png" className=" lg:w-64 lg:h-16 p-2 " alt="" /></div>
                 <div className=' pr-10'>
                     <div className='hidden lg:block'>
@@ -101,11 +101,11 @@ const MainTopNav = () => {
                 </ul>
                     </div>
 
-                    {/* <div className='lg:hidden  z-50  bg-white w-full hero'>
+                    {/* <div className='lg:hidden  z-30  bg-white w-full hero'>
                        <div>
                        {searchSection}
                        </div>
-                       
+
                     </div> */}
             </div>
 
@@ -129,7 +129,7 @@ const MainTopNav = () => {
                     </form>
                 </dialog>
             </div>
-            <div className='w-full lg:hidden h-16 border z-50 bg-white fixed bottom-0 shadow-2xl'>
+            <div className='w-full lg:hidden h-16 border z-30 bg-white fixed bottom-0 shadow-2xl'>
                 <div>
                     {mobileBotonNav}
                 </div>

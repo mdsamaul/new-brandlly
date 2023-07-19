@@ -19,9 +19,7 @@ const Fashion = () => {
     const electricalElectronicsProducts = fashion.filter(electricalElectronicsProduct => electricalElectronicsProduct.category === "Electrical-&-Electronics");
     const stationeryToolsProducts = fashion.filter(stationeryProducts => stationeryProducts.category === "Stationery-&-Tools");
 
-    // console.log(fashionProducts);
-    // console.log("electricalElectronicsProducts product", electricalElectronicsProducts);
-    // console.log("fashion stationeryToolsProducts", stationeryToolsProducts);
+
 
 
     return (

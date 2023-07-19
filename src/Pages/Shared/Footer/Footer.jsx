@@ -3,7 +3,7 @@ import EndFooter from "./EndFooter/EndFooter.jsx";
 
 const Footer = () => {
     return (
-        <div className="relative mb-52">
+        <div className="relative mb-52 lg:mb-0">
             <footer className="footer px-10 py-20 bg-base-200">
 
                 <div className="lg:flex lg:w-full justify-between">
