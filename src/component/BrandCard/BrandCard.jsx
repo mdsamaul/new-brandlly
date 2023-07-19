@@ -4,7 +4,7 @@ const BrandCard = ({ image, brandName, pathBrand, subTitle, pathShopnow }) => {
     return (
         <div className="card  mx-2 lg:mx-0 my-2 lg:my-3 lg:w-64 lg:h-60 bg-base-100 pb-4 rounded-2xl shadow-xl">
             <figure className="">
-                <Link to={pathBrand} className="lg:m-10 sm:mx-3 "><img src={image} className="rounded-xl w-60 h-24 " /></Link>
+                <Link to={pathBrand} className="lg:m-10 sm:mx-3 "><img src={image} className="rounded-xl px-10 " /></Link>
             </figure>
             <div className=" items-center text-center">
                 <Link to={pathBrand} className="font-medium text-black lg:mt-12  duration-700 hover:text-[#c32148]">{brandName}</Link>

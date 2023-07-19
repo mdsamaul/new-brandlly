@@ -1,22 +1,22 @@
 
 const SearchTop = () => {
     const searchSection = <>
-        <div className="bg-white w-full hero my-2 z-50">
-            <div className="join">
+        <div className="bg-white rounded w-full hero my-2 z-50">
+            <div className="join ">
                 <div>
                     <div>
-                        <input className="input input-bordered  h-8 join-item" placeholder="Search..." />
+                        <input className="input  h-10  border border-[#C32148] join-item " placeholder="Search..." />
                     </div>
                 </div>
-                <select className="select select-bordered join-item hidden h-8 md:block">
+                <select className="select  join-item  border border-[#C32148] hidden h-8 md:block">
                     <option disabled selected>Category</option>
                     <option>Sci-fi</option>
                     <option>Drama</option>
                     <option>Action</option>
                 </select>
-                <div className="h-8">
+                <div>
                     {/* <button className="btn join-item h-8"></button> */}
-                    <button className="btn join-item btn-sm capitalize">Search</button>
+                    <button className="border  h-full px-3 text-sm capitalize text-[#C32148] hover:text-[#fff]  border-[#C32148] join-item hover:bg-[#C32148] duration-700">Search</button>
 
                 </div>
             </div>
@@ -32,7 +32,7 @@ const SearchTop = () => {
     </>
     return (
         <div>
-            <div className='lg:hidden  z-50  bg-white w-full hero'>
+            <div className='lg:hidden  z-50 bg-opacity-90 bg-white w-full hero'>
                 <div>
                     {searchSection}
                 </div>
