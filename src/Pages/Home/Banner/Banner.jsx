@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div>
+        <div className="mt-16">
             <div className="hidden md:block">
                 <img src="https://www.brandlly.com/assets/images/web-cover.png" className="rounded-lg" alt="" />
             </div>

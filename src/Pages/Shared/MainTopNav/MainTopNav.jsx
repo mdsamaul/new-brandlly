@@ -37,7 +37,7 @@ const MainTopNav = () => {
     </>
 
     const searchSection = <>
-        <div>
+        <div className=''>
             <div className="join">
                 <div>
                     <div>
@@ -90,7 +90,7 @@ const MainTopNav = () => {
     // console.log(isOpen);
 
     return (
-        <div className=' '>
+        <div>
             <div className="lg:flex mx-auto lg:justify-between lg:px-3 lg:items-center w-full lg:h-20  bg-white ">
                 <div className='z-50 hidden lg:block bg-white'><img src="https://www.brandlly.com/assets/landings/assets/images/Brandlly-logo.png" className="w-28 h-10 lg:w-64 lg:h-16 " alt="" /></div>
                 <div className=''>
@@ -101,7 +101,7 @@ const MainTopNav = () => {
                     {navItems}
                 </ul>
                     </div>
-                    <div className='lg:hidden w-full h-16 hero'>
+                    <div className='lg:hidden fixed top-0 z-50  bg-white w-full h-16 hero'>
                         {searchSection}
                     </div>
             </div>
@@ -127,7 +127,6 @@ const MainTopNav = () => {
                 </dialog>
             </div>
             <div className='w-full lg:hidden h-16 border z-50 bg-white fixed bottom-0 shadow-2xl'>
-
                 <div>
                     {mobileBotonNav}
                 </div>
