@@ -41,7 +41,7 @@ const MainTopNav = () => {
             <div className="join">
                 <div>
                     <div>
-                        <input className="input input-bordered join-item w-30%" placeholder="Search..." />
+                        <input className="input input-bordered join-item" placeholder="Search..." />
                     </div>
                 </div>
                 <select className="select select-bordered join-item hidden md:block">
@@ -91,7 +91,7 @@ const MainTopNav = () => {
 
     return (
         <div className=' '>
-            <div className="lg:flex mx-auto lg:justify-between px-3 lg:items-center w-full lg:h-20  bg-white ">
+            <div className="lg:flex mx-auto lg:justify-between lg:px-3 lg:items-center w-full lg:h-20  bg-white ">
                 <div className='z-50 hidden lg:block bg-white'><img src="https://www.brandlly.com/assets/landings/assets/images/Brandlly-logo.png" className="w-28 h-10 lg:w-64 lg:h-16 " alt="" /></div>
                 <div className=''>
                     <div className='hidden lg:block'>
