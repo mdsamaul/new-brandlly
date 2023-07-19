@@ -5,19 +5,19 @@ const ServicesSection = () => {
             <div className="grid gap-1 mx-2 lg:gap-4 lg:mx-4 mt-4 lg:mt-10 mb-5 grid-cols-3">
                 <div className="border rounded w-full hero">
                     <div className="text-center">
-                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/ic_brand.png" className="w-16 h-16 m-5 mx-auto mb-1" alt="" />
+                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/ic_brand.png" className="w-10  lg:w-14 lg:h-14 m-5 pb-1 mx-auto mb-1" alt="" />
                         <h3 className="text-xs mb-3 font-semibold lg:text-base text-center">Only for Brand Products</h3>
                     </div>
                 </div>
                 <div className="border rounded w-full hero">
                     <div>
-                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/cash-on-delivery.png" className="w-16 h-16 m-5 mb-1 mx-auto" alt="" />
+                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/cash-on-delivery.png" className="w-10  lg:w-14 lg:h-14 m-5 pb-1 mx-auto mb-1" alt="" />
                         <h3 className="text-xs mb-3 font-semibold lg:text-base text-center">100% Cash on Delivery</h3>
                     </div>
                 </div>
                 <div className="border rounded w-full hero">
                     <div>
-                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/ic_money_back.png" className="w-16 h-16 m-5 mb-1 mx-auto" alt="" />
+                        <img src="https://www.brandlly.com/assets/ecommerce/images/icons/ic_money_back.png" className="w-10  lg:w-14 lg:h-14 m-5 pb-1 mx-auto mb-1" alt="" />
                         <h3 className="text-xs mb-3 font-semibold lg:text-base text-center">15 days Moneyback Guarantee</h3>
                     </div>
                 </div>
