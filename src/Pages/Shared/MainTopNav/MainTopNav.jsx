@@ -37,20 +37,20 @@ const MainTopNav = () => {
     </>
 
     const searchSection = <>
-        <div className='container p-0 m-0 text-center mx-auto borde hero'>
+        <div>
             <div className="join">
                 <div>
                     <div>
-                        <input className="input input-bordered join-item" placeholder="Search..." />
+                        <input className="input input-bordered join-item w-30%" placeholder="Search..." />
                     </div>
                 </div>
-                <select className="select select-bordered join-item">
+                <select className="select select-bordered join-item hidden md:block">
                     <option disabled selected>Category</option>
                     <option>Sci-fi</option>
                     <option>Drama</option>
                     <option>Action</option>
                 </select>
-                <div className="indicator">
+                <div>
                     <button className="btn join-item">Search</button>
                 </div>
             </div>

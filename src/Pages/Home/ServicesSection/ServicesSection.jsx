@@ -1,8 +1,8 @@
 
 const ServicesSection = () => {
     return (
-        <div className="">
-            <div className="grid gap-1 mx-2 lg:gap-4 lg:mx-4 my-10 grid-cols-3">
+        <div>
+            <div className="grid gap-1 mx-2 lg:gap-4 lg:mx-4 mt-4 lg:mt-10 mb-5 grid-cols-3">
                 <div className="border rounded w-full hero">
                     <div className="text-center">
                         <img src="https://www.brandlly.com/assets/ecommerce/images/icons/ic_brand.png" className="w-16 h-16 m-5 mx-auto mb-1" alt="" />
