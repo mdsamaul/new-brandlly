@@ -1,7 +1,7 @@
 import { Sling as Hamburger } from 'hamburger-react';
 import { useState } from "react";
+import { BiUser } from 'react-icons/bi';
 import { BsChat } from 'react-icons/bs';
-import { CgProfile } from 'react-icons/cg';
 import { FcHome } from 'react-icons/fc';
 import { FiShoppingBag } from 'react-icons/fi';
 import { LuShoppingCart } from 'react-icons/lu';
@@ -27,13 +27,42 @@ const MainTopNav = () => {
                     <Link to="/"><LuShoppingCart className='mx-auto text-2xl' />Shop</Link>
                 </li>
                 <li className='hero'>
-                    <Link to="/"><CgProfile className='mx-auto text-2xl' /> Account</Link>
+                    <Link to="/"><BiUser className='mx-auto text-2xl' /> Account</Link>
                 </li>
 
 
             </ul>
         </div>
 
+    </>
+
+    const searchSection = <>
+        <div className='container p-0 m-0 text-center mx-auto borde hero'>
+            <div className="join">
+                <div>
+                    <div>
+                        <input className="input input-bordered join-item" placeholder="Search..." />
+                    </div>
+                </div>
+                <select className="select select-bordered join-item">
+                    <option disabled selected>Category</option>
+                    <option>Sci-fi</option>
+                    <option>Drama</option>
+                    <option>Action</option>
+                </select>
+                <div className="indicator">
+                    <button className="btn join-item">Search</button>
+                </div>
+            </div>
+            {/* <label className="relative block">
+                <span className="sr-only">Search</span>
+                <span className="absolute inset-y-0 left-0 flex items-center pl-2">
+                    <FaSearch className="h-5 w-5 fill-slate-300" />
+
+                </span>
+                <input className="placeholder:italic placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-md py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 sm:text-sm" placeholder="Search for anything..." type="text" name="search" />
+            </label> */}
+        </div>
     </>
 
     const navItems = <>
@@ -58,16 +87,23 @@ const MainTopNav = () => {
         </div>
 
     </>
-    console.log(isOpen);
+    // console.log(isOpen);
 
     return (
         <div className=' '>
-            <div id='top' className="flex max-w-6xl mx-auto justify-between px-3 py-12 items-center w-full h-20  bg-white">
-                <div className='z-50 bg-white'><img src="https://www.brandlly.com/assets/landings/assets/images/Brandlly-logo.png" className="w-28 h-10 lg:w-64 lg:h-16 " alt="" /></div>
-            <div>
-                <ul className=" flex items-center w-full lg:w-auto">
+            <div className="lg:flex mx-auto lg:justify-between px-3 lg:items-center w-full lg:h-20  bg-white ">
+                <div className='z-50 hidden lg:block bg-white'><img src="https://www.brandlly.com/assets/landings/assets/images/Brandlly-logo.png" className="w-28 h-10 lg:w-64 lg:h-16 " alt="" /></div>
+                <div className=''>
+                    <div className='hidden lg:block'>
+
+
+                        <ul className=" flex items-center w-full lg:w-auto">
                     {navItems}
                 </ul>
+                    </div>
+                    <div className='lg:hidden w-full h-16 hero'>
+                        {searchSection}
+                    </div>
             </div>
 
             </div>
@@ -92,7 +128,7 @@ const MainTopNav = () => {
             </div>
             <div className='w-full lg:hidden h-16 border z-50 bg-white fixed bottom-0 shadow-2xl'>
 
-                <div className=''>
+                <div>
                     {mobileBotonNav}
                 </div>
             </div>
