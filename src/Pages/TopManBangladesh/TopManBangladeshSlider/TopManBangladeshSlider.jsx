@@ -1,87 +1,90 @@
-import { useRef, useState } from "react";
-// import styled from "styled-components";
+import { useRef } from 'react';
+// Import Swiper React components
+import ContentZoom from 'react-content-zoom';
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+import '@smastrom/react-rating/style.css';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
-const Container = `
-  position: relative;
-  overflow: hidden;
-  display: block;
-  padding: 50px;
-  border: 1px solid #00adb7;
-  border-radius: 15px;
-  :hover {
-    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.55), 0 14px 18px rgba(0, 0, 0, 0.55);
-  }
-`;
+// import required modules
+import { Rating } from '@smastrom/react-rating';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
-const Image = `img.attrs((props) => ({
-    src: props.source
-}))`;
-
-const Target = (Image)`
-  position: absolute;
-  left: ${(props) => props.offset.left}px;
-  top: ${(props) => props.offset.top}px;
-  opacity: ${(props) => props.opacity};
-`;
 const TopManBangladeshSlider = () => {
-
-    const sourceRef = useRef(null);
-    const targetRef = useRef(null);
-    const containerRef = useRef(null);
-
-    const [opacity, setOpacity] = useState(0);
-    const [offset, setOffset] = useState({ left: 0, top: 0 });
-
-    const handleMouseEnter = () => {
-        setOpacity(1);
+    const progressCircle = useRef(null);
+    const progressContent = useRef(null);
+    const onAutoplayTimeLeft = (s, time, progress) => {
+        progressCircle.current.style.setProperty('--progress', 1 - progress);
+        progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
     };
-
-    const handleMouseLeave = () => {
-        setOpacity(0);
-    };
-
-    const handleMouseMove = (e) => {
-        const targetRect = targetRef.current.getBoundingClientRect();
-        const sourceRect = sourceRef.current.getBoundingClientRect();
-        const containerRect = containerRef.current.getBoundingClientRect();
-
-        const xRatio = (targetRect.width - containerRect.width) / sourceRect.width;
-        const yRatio =
-            (targetRect.height - containerRect.height) / sourceRect.height;
-
-        const left = Math.max(
-            Math.min(e.pageX - sourceRect.left, sourceRect.width),
-            0
-        );
-        const top = Math.max(
-            Math.min(e.pageY - sourceRect.top, sourceRect.height),
-            0
-        );
-
-        setOffset({
-            left: left * -xRatio,
-            top: top * -yRatio
-        });
-    };
-
     return (
-        <div className="App">
-            <Container
-                ref={containerRef}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
-                onMouseMove={handleMouseMove}
+        <div className='w-60 border my-5 mx-10'>
+
+
+
+            <Swiper
+                spaceBetween={30}
+                centeredSlides={true}
+                loop={true}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                }}
+                pagination={{
+                    clickable: true,
+                }}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation]}
+                onAutoplayTimeLeft={onAutoplayTimeLeft}
+                className="mySwiper z-10"
             >
-                <Image ref={sourceRef} alt="source" source="gadget_thumb.png" />
-                <Target
-                    ref={targetRef}
-                    alt="target"
-                    opacity={opacity}
-                    offset={offset}
-                    source="gadget.jpg"
-                />
-            </Container>
+                <SwiperSlide>
+                    <div className="shadow-xl">
+                        <figure>
+                            <div className="cursor-zoom-in">
+                                <ContentZoom zoomPercent={350}
+                                    largeImageUrl="https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-623.jpg"
+                                    imageUrl="https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-623.jpg"
+                                    contentHeight={300}
+                                    contentWidth={240}
+
+
+                                />
+                            </div>
+                        </figure>
+
+                    </div>
+                </SwiperSlide>
+
+
+
+
+
+
+
+                <div className="autoplay-progress  w-80 h-20">
+
+                    <svg viewBox="0 0 48 48" ref={progressCircle}>
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span ref={progressContent}></span>
+
+                </div>
+                <div className='rating-section border w-40 h-10 bottom-6 left-3 rounded bg-opacity-50 bg-slate-300'>
+                    <Rating
+                        style={{ maxWidth: 100 }}
+                        value={3}
+                        readOnly
+
+                    /> <span className='font-normal text-yellow-400 pl-2'>| 3.8</span>
+                </div>
+            </Swiper>
+
+
         </div>
     );
 };

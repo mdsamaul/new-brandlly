@@ -6,7 +6,6 @@ import BannerParallax from "./BannerParallax/BannerParallax.jsx";
 import { BsShieldCheck } from 'react-icons/bs';
 
 import '@smastrom/react-rating/style.css';
-import TopManBangladeshSlider from "./TopManBangladeshSlider/TopManBangladeshSlider.jsx";
 import TopManBangladeshTab from "./TopManBangladeshTab/TopManBangladeshTab.jsx";
 
 const TopManBangladesh = () => {
@@ -69,10 +68,7 @@ const TopManBangladesh = () => {
 
             </div>
 
-            <div className="border hero w-96  h-96">
-                <TopManBangladeshSlider />
 
-            </div>
         </div >
     );
 };

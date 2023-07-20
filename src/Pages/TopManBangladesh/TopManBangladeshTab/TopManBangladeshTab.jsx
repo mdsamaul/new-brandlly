@@ -1,5 +1,6 @@
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import TopManBangladeshSlider from '../TopManBangladeshSlider/TopManBangladeshSlider.jsx';
 const TopManBangladeshTab = ({ items }) => {
     console.log(items);
     const Component = (
@@ -26,8 +27,7 @@ const TopManBangladeshTab = ({ items }) => {
                         <Tab></Tab>
                     </TabList>
                     <TabPanel>
-                        <p>Husband of Marge; father of Bart, Lisa, and Maggie.</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Homer_Simpson_2006.png/212px-Homer_Simpson_2006.png" alt="Homer Simpson" />
+                        <TopManBangladeshSlider />
                     </TabPanel>
                     <TabPanel>
                         <p>Wife of Homer; mother of Bart, Lisa, and Maggie.</p>
