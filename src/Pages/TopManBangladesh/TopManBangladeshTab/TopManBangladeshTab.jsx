@@ -1,6 +1,7 @@
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import TopManBangladeshSlider from '../TopManBangladeshSlider/TopManBangladeshSlider.jsx';
+import TopManBangladeshZoomImage from '../TopManBangladeshZoomImage/TopManBangladeshZoomImage.jsx';
 const TopManBangladeshTab = ({ items }) => {
     console.log(items);
     const Component = (
@@ -27,7 +28,16 @@ const TopManBangladeshTab = ({ items }) => {
                         <Tab></Tab>
                     </TabList>
                     <TabPanel>
-                        <TopManBangladeshSlider />
+                        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+
+                            <TopManBangladeshSlider />
+                            <TopManBangladeshSlider />
+                            <TopManBangladeshSlider />
+                            <TopManBangladeshSlider />
+                            <TopManBangladeshSlider />
+                            <TopManBangladeshSlider />
+                            <TopManBangladeshSlider />
+                        </div>
                     </TabPanel>
                     <TabPanel>
                         <p>Wife of Homer; mother of Bart, Lisa, and Maggie.</p>
@@ -58,8 +68,11 @@ const TopManBangladeshTab = ({ items }) => {
                         <Tab></Tab>
                     </TabList>
                     <TabPanel>
-                        <p>Protagonist, from the 20th Century. Delivery boy. Many times great-uncle to Professor Hubert Farnsworth. Suitor of Leela.</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Philip_Fry.png/175px-Philip_Fry.png" alt="Philip J. Fry" />
+                        <div>
+                            <TopManBangladeshZoomImage />
+                            <TopManBangladeshZoomImage />
+                            <TopManBangladeshZoomImage />
+                        </div>
                     </TabPanel>
                     <TabPanel>
                         <p>Mutant cyclops. Captain of the Planet Express Ship. Love interest of Fry.</p>
