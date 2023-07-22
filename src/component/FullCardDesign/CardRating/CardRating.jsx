@@ -6,13 +6,14 @@ const CardRating = ({item}) => {
     const{rating}= item;
 
     return (
-        <div>
+        <div className="flex">
           <Rating
                             style={{ maxWidth: 100 }}
                             value={rating}
                             readOnly
                             className=" my-1"
                         />
+                        <span className="pl-1 opacity-40 font-semibold"> | {rating}</span>
         </div>
     );
 };

@@ -61,67 +61,6 @@
     ]
   },
   {
-    "id": 20,
-    "productname": "Premium Casual Panjabi | TMP-1028",
-
-      "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-623.jpg",
-    "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-237.jpg",
-    "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-965.jpg",
-    "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-594.jpg",
-
-    "rating": 4.2,
-    "brandname": "Topman Bangladesh",
-    "url": "topman-bangladesh",
-    "brandlogo": "https://www.brandlly.com/storage/logo/63e2456f974e0.png",
-    "category": "Fashion",
-    "price": 39.99,
-    "color": "Red",
-    "ondisplay": true,
-    "productsize": ["M", "L", "XL", "XXL"],
-    "quantity": 75,
-    "productdetails": "Premium Panjabi With A Traditional & New Generation Style From Our Exclusive Collection Of Topman Bangladesh.",
-    "productmaterial": "Cotton",
-    "buttonmaterial": "Plastic",
-    "size&fit": "Regular fit",
-    "productreviews": [
-      {
-        "id": 1,
-        "username": "happyCustomer123",
-        "rating": 5,
-        "review": "I love it! Fits perfectly and looks great.",
-        "date": "2023-07-10"
-      },
-      {
-        "id": 2,
-        "username": "fashionQueen",
-        "rating": 4,
-        "review": "Nice color but slightly tight around the arms.",
-        "date": "2023-07-15"
-      },
-      {
-        "id": 3,
-        "username": "sportsFanatic",
-        "rating": 4.5,
-        "review": "Comfortable to wear during workouts.",
-        "date": "2023-07-18"
-      },
-      {
-        "id": 4,
-        "username": "casualShopper",
-        "rating": 3.5,
-        "review": "Decent product but the price could be lower.",
-        "date": "2023-07-18"
-      },
-      {
-        "id": 5,
-        "username": "shopaholic22",
-        "rating": 5,
-        "review": "This is my second purchase. Highly recommended!",
-        "date": "2023-07-19"
-      }
-    ]
-  },
-  {
     "id": 2,
     "productname": "Philips Dryer BHC017",
    
@@ -192,7 +131,7 @@
     "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-594.jpg"
     }],
     "rating": 4.8,
-    "brandname": "    Freedom Bangladesh",
+    "brandname": "Freedom Bangladesh",
     "url": "freedom-bangladesh",
     "brandlogo": "https://www.brandlly.com/storage/logo/63e242e9db64d.png",
     "category": "Fashion",

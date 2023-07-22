@@ -39,9 +39,16 @@ const TopManBangladeshTab = ({ items }) => {
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <p>Wife of Homer; mother of Bart, Lisa, and Maggie.</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Marge_Simpson.png/220px-Marge_Simpson.png" alt="Marge Simpson" />
-                    </TabPanel>
+                    <div className='grid grid-cols-2 py-4 px-4 container md:grid-cols-3 lg:grid-cols-5 gap-3'>
+                            {
+                                items.map(item => <FullCardDesign key={item.id} item={item}></FullCardDesign>)
+                                // <FullCardDesign items={items}></FullCardDesign>
+                            }
+                       
+                        
+                            
+                        </div>
+                        </TabPanel>
                    
                     
                 </Tabs>
@@ -57,14 +64,27 @@ const TopManBangladeshTab = ({ items }) => {
                       
                     </TabList>
                     <TabPanel>
-                        <div>
-                           slider Zoom section
+                    <div className='grid grid-cols-2 py-4 px-4 container md:grid-cols-3 lg:grid-cols-5 gap-3'>
+                            {
+                                items.map(item => <FullCardDesign key={item.id} item={item}></FullCardDesign>)
+                                // <FullCardDesign items={items}></FullCardDesign>
+                            }
+                       
+                        
+                            
                         </div>
                     </TabPanel>
                     <TabPanel>
-                        <p>Mutant cyclops. Captain of the Planet Express Ship. Love interest of Fry.</p>
-                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Turanga_Leela.png/150px-Turanga_Leela.png" alt="Turanga Leela" />
-                    </TabPanel>
+                    <div className='grid grid-cols-2 py-4 px-4 container md:grid-cols-3 lg:grid-cols-5 gap-3'>
+                            {
+                                items.map(item => <FullCardDesign key={item.id} item={item}></FullCardDesign>)
+                                // <FullCardDesign items={items}></FullCardDesign>
+                            }
+                       
+                        
+                            
+                        </div>
+                         </TabPanel>
                     
                 </Tabs>
             </TabPanel>

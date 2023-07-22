@@ -1,6 +1,6 @@
 import { Rating } from "@smastrom/react-rating";
 import { useEffect, useState } from "react";
-import BannerParallax from "./BannerParallax/BannerParallax.jsx";
+import BannerParallax from "./TopManBannerParallax/TopManBannerParallax.jsx";
 
 
 import { BsShieldCheck } from 'react-icons/bs';
@@ -8,6 +8,7 @@ import { BsShieldCheck } from 'react-icons/bs';
 import '@smastrom/react-rating/style.css';
 import TopManBangladeshTab from "./TopManBangladeshTab/TopManBangladeshTab.jsx";
 import ShopRating from "../../component/ShopRating/ShopRating.jsx";
+import TopManBannerParallax from "./TopManBannerParallax/TopManBannerParallax.jsx";
 
 const TopManBangladesh = () => {
 
@@ -24,7 +25,7 @@ const TopManBangladesh = () => {
     }, []);
 
     const topManBangladeshShop = items.filter(item => item.brandname === "Topman Bangladesh");
-    console.log(topManBangladeshShop);
+    // console.log(topManBangladeshShop);
 
 
 
@@ -35,7 +36,7 @@ const TopManBangladesh = () => {
                     <img src="https://www.brandlly.com/storage/logo/63e2456f974e0.png" className="p-3" alt="" />
                 </div>
                 <div className="relative w-full h-66">
-                    <BannerParallax />
+                   <TopManBannerParallax/>
                     <div className="absolute -bottom-10   left-[15%] shadow-2xl rounded-md bg-white">
                         <div className="w-40">
                             <img src="https://www.brandlly.com/storage/logo/63e2456f974e0.png" alt="" />
