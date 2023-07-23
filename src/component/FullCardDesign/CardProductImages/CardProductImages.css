@@ -46,7 +46,7 @@
     color: rgb(187, 37, 37);
   }
   .slick-slide{
-    height: 275px!important;
+    height: 245px!important;
     width: 100%;
     border: 1px solid red;
     border-radius: 7px 7px 0px 0px;
@@ -54,8 +54,8 @@
   }
   .iiz div img{
     border: 1px solid red;
-    width: 234px;
-    height: 270px;
+    width: 233px;
+    height: 240px;
     border-radius: 7px;
     margin: 1.5px;
   }
