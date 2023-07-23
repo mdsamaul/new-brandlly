@@ -19,7 +19,7 @@ const Smart = () => {
 
     }, []);
 
-    const freedomBangladeshShop = items.filter(item => item.brandname === "Freedom Bangladesh");
+    const smartShop = items.filter(item => item.brandname === "Smart");
     
    
 
@@ -42,7 +42,7 @@ const Smart = () => {
                 </div>
 
                 <div className="my-3">
-                <ProductTab items={freedomBangladeshShop}></ProductTab>
+                <ProductTab items={smartShop}></ProductTab>
                 </div>
 
 

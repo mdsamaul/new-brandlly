@@ -21,7 +21,7 @@ const Deli = () => {
 
     }, []);
 
-    const freedomBangladeshShop = items.filter(item => item.brandname === "Freedom Bangladesh");
+    const deliShop = items.filter(item => item.brandname === "Deli");
     
    
 
@@ -42,7 +42,7 @@ const Deli = () => {
                     </div>
                 </div>
                 <div className="my-3">
-                <ProductTab items={freedomBangladeshShop}></ProductTab>
+                <ProductTab items={deliShop}></ProductTab>
                 </div>
             </div>  
               );

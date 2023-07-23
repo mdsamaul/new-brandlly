@@ -19,7 +19,7 @@ const StyleDoor = () => {
 
     }, []);
 
-    const freedomBangladeshShop = items.filter(item => item.brandname === "Freedom Bangladesh");
+    const styleDoorShop = items.filter(item => item.brandname === "StyleDoor");
     
    
 
@@ -42,7 +42,7 @@ const StyleDoor = () => {
                 </div>
 
                 <div className="my-3">
-                <ProductTab items={freedomBangladeshShop}></ProductTab>
+                <ProductTab items={styleDoorShop}></ProductTab>
                 </div>
 
 

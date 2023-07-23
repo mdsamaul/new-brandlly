@@ -19,7 +19,7 @@ const Sony = () => {
 
     }, []);
 
-    const freedomBangladeshShop = items.filter(item => item.brandname === "Freedom Bangladesh");
+    const sonyShop = items.filter(item => item.brandname === "Sony");
     
    
 
@@ -42,7 +42,7 @@ const Sony = () => {
                 </div>
 
                 <div className="my-3">
-                <ProductTab items={freedomBangladeshShop}></ProductTab>
+                <ProductTab items={sonyShop}></ProductTab>
                 </div>
 
 

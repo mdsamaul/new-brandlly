@@ -19,7 +19,7 @@ const Nipro = () => {
 
     }, []);
 
-    const freedomBangladeshShop = items.filter(item => item.brandname === "Freedom Bangladesh");
+    const niproShop = items.filter(item => item.brandname === "Nipro");
     
    
 
@@ -42,7 +42,7 @@ const Nipro = () => {
                 </div>
 
                 <div className="my-3">
-                <ProductTab items={freedomBangladeshShop}></ProductTab>
+                <ProductTab items={niproShop}></ProductTab>
                 </div>
 
 

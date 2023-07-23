@@ -19,7 +19,7 @@ const Foring = () => {
 
     }, []);
 
-    const freedomBangladeshShop = items.filter(item => item.brandname === "Freedom Bangladesh");
+    const ForingShop = items.filter(item => item.brandname === "Foring");
     
    
 
@@ -42,7 +42,7 @@ const Foring = () => {
                 </div>
 
                 <div className="my-3">
-                <ProductTab items={freedomBangladeshShop}></ProductTab>
+                <ProductTab items={ForingShop}></ProductTab>
                 </div>
 
 
