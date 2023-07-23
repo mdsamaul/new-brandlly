@@ -6,12 +6,12 @@ import { useEffect, useState } from "react";
 import { BsShieldCheck } from 'react-icons/bs';
 
 import '@smastrom/react-rating/style.css';
-import TopManBangladeshTab from "./TopManBangladeshTab/TopManBangladeshTab.jsx";
 import ShopRating from "../../component/ShopRating/ShopRating.jsx";
 
 import HeaderBrandLogo from "../../component/HeaderBrandLogo/HeaderBrandLogo.jsx";
 import LogoRatingVerified from "../../component/LogoRatingVerified/LogoRatingVerified.jsx";
 import BannerParallax from "../../component/BannerParallax/BannerParallax.jsx";
+import ProductTab from "../../component/ProductTab/ProductTab.jsx";
 
 const TopManBangladesh = () => {
 
@@ -52,7 +52,8 @@ const TopManBangladesh = () => {
                 </div>
 
                 <div className="my-3">
-                    <TopManBangladeshTab items={topManBangladeshShop}></TopManBangladeshTab>
+                    
+                    <ProductTab items={topManBangladeshShop}></ProductTab>
                 </div>
 
 
