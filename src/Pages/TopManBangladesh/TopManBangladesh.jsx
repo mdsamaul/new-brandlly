@@ -1,6 +1,6 @@
 import { Rating } from "@smastrom/react-rating";
 import { useEffect, useState } from "react";
-import BannerParallax from "./TopManBannerParallax/TopManBannerParallax.jsx";
+
 
 
 import { BsShieldCheck } from 'react-icons/bs';
@@ -8,7 +8,10 @@ import { BsShieldCheck } from 'react-icons/bs';
 import '@smastrom/react-rating/style.css';
 import TopManBangladeshTab from "./TopManBangladeshTab/TopManBangladeshTab.jsx";
 import ShopRating from "../../component/ShopRating/ShopRating.jsx";
-import TopManBannerParallax from "./TopManBannerParallax/TopManBannerParallax.jsx";
+
+import HeaderBrandLogo from "../../component/HeaderBrandLogo/HeaderBrandLogo.jsx";
+import LogoRatingVerified from "../../component/LogoRatingVerified/LogoRatingVerified.jsx";
+import BannerParallax from "../../component/BannerParallax/BannerParallax.jsx";
 
 const TopManBangladesh = () => {
 
@@ -30,27 +33,15 @@ const TopManBangladesh = () => {
 
 
     return (
-        <div>
+      
             <div>
-                <div className="hidden lg:block fixed -top-7  z-50 left-[30%] w-52    ">
-                    <img src="https://www.brandlly.com/storage/logo/63e2456f974e0.png" className="p-3" alt="" />
-                </div>
+                <HeaderBrandLogo shoplogo={'https://www.brandlly.com/storage/logo/63e2456f974e0.png'}></HeaderBrandLogo>
                 <div className="relative w-full h-66">
-                   <TopManBannerParallax/>
-                    <div className="absolute -bottom-10   left-[15%] shadow-2xl rounded-md bg-white">
-                        <div className="w-40">
-                            <img src="https://www.brandlly.com/storage/logo/63e2456f974e0.png" alt="" />
-                        </div>
-                    </div>
+                  <BannerParallax bannerimg={'https://www.brandlly.com/storage/banner/62b9890cc2f99.jpg'}></BannerParallax>
+                  <LogoRatingVerified shoplogo={"https://www.brandlly.com/storage/logo/63e2456f974e0.png"}></LogoRatingVerified>
                 </div>
                 <div className="w-full lg:pl-[28%] mb-5">
                     <div>
-                        {/* <Rating
-                            style={{ maxWidth: 100 }}
-                            value={2}
-                            readOnly
-                            className=" my-2"
-                        /> */}
                         <ShopRating rating={"4.5"}></ShopRating>
                     </div>
                     <div className="flex items-center gap-1 text-green-700">
@@ -68,7 +59,6 @@ const TopManBangladesh = () => {
             </div>
 
 
-        </div >
     );
 };
 

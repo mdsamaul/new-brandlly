@@ -124,12 +124,12 @@
   {
     "id": 3,
     "productname": "Men Sky Blue Hooded Sweatshirt",
-    "totalImages":[{
+   
       "displayimageone": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-623.jpg",
     "displayimagetwo": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-237.jpg",
     "displayimagethree": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-965.jpg",
     "displayimagefour": "https://brandlyimagedev-resized.s3.ap-southeast-1.amazonaws.com/large_topman-bangladesh-0400700345-594.jpg"
-    }],
+ ,
     "rating": 4.8,
     "brandname": "Freedom Bangladesh",
     "url": "freedom-bangladesh",

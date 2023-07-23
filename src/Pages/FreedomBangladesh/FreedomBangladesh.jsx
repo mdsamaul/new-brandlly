@@ -19,6 +19,7 @@ const FreedomBangladesh = () => {
     }, []);
 
     const freedomBangladeshShop = items.filter(item => item.brandname === "Freedom Bangladesh");
+    
    
 
     return (

@@ -1,10 +1,9 @@
-import Rating from "react-rating";
 import CardProductImages from "./CardProductImages/CardProductImages";
 import CardRating from "./CardRating/CardRating";
 import { Link } from "react-router-dom";
 
 const FullCardDesign = ({item}) => {
-console.log(item.productname)
+// console.log(item.productname)
 // const productImages = item.totalImages;
 // console.log(productImages)
 

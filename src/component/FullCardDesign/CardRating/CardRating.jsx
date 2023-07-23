@@ -11,7 +11,7 @@ const CardRating = ({item}) => {
                             style={{ maxWidth: 100 }}
                             value={rating}
                             readOnly
-                            className=" my-1"
+                            className="my-1"
                         />
                         <span className="pl-1 opacity-40 font-semibold"> | {rating}</span>
         </div>

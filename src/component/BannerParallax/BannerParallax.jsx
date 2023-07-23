@@ -2,7 +2,7 @@ import React from 'react';
 import { ParallaxBanner } from 'react-scroll-parallax';
 
 const BannerParallax = ({bannerimg}) => {
-    console.log(bannerimg)
+    // console.log(bannerimg)
     return (
         <div>
              <div className="w-full  hero px-3 h-70 lg:px-14">
