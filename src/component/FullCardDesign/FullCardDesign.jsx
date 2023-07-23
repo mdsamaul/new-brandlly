@@ -17,7 +17,7 @@ const FullCardDesign = ({item}) => {
                 </div>
             </div>
             </div>
-            <div className="border border-t-0 border-red-500 rounded-b-md py-2">
+            <div className="border border-t-0 border-red-500 rounded-b-md pt-6 pb-3">
               <h3 className="px-2 text-base font-semibold">{item.productname}</h3>
               <div className="flex justify-around items-center">
               <div >

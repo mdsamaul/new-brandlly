@@ -26,7 +26,7 @@
   .slick-dots{
     padding: 0px;
     position: absolute;
-    bottom:-10px;
+    bottom:-15px;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.142);
     width: 97%;
@@ -46,16 +46,17 @@
     color: rgb(187, 37, 37);
   }
   .slick-slide{
-    /* height: 140px!important; */
+    height: 275px!important;
     width: 100%;
     border: 1px solid red;
     border-radius: 7px 7px 0px 0px;
     border-bottom: 0px;
   }
   .iiz div img{
-    width: 100%;
-    height: 240px;
+    border: 1px solid red;
+    width: 234px;
+    height: 270px;
     border-radius: 7px;
-    padding: 2px;
+    margin: 1.5px;
   }
   
