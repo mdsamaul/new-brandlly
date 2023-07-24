@@ -3,21 +3,53 @@ import BrandCard from "../../../component/BrandCard/BrandCard.jsx";
 
 const Fashion = () => {
 
-    const [fashion, setFashion] = useState([]);
+    const [homeOutletShopLogo, setHomeOutletShopLogo ]=useState([]);
+    useEffect(()=>{
+        fetch('partners.json')
+        .then(res => res.json())
+        .then(data=> setHomeOutletShopLogo(data))
+        .catch(error => console.log(error));
+    },[])
+    
+    
+    // const [fashion, setFashion] = useState([]);
 
-    useEffect(() => {
-        fetch('product.json')
-            .then(res => res.json())
-            .then(data => setFashion(data))
-            .catch(error => console.log(error))
+    // useEffect(() => {
+    //     fetch('product.json')
+    //         .then(res => res.json())
+    //         .then(data => setFashion(data))
+    //         .catch(error => console.log(error))
 
-    }, []);
+    // }, []);
     // console.log(fashion);
     // "category": "Electrical-&-Electronics"
 
-    const fashionProducts = fashion.filter(fashionProduct => fashionProduct.category === "Fashion");
-    const electricalElectronicsProducts = fashion.filter(electricalElectronicsProduct => electricalElectronicsProduct.category === "Electrical-&-Electronics");
-    const stationeryToolsProducts = fashion.filter(stationeryProducts => stationeryProducts.category === "Stationery-&-Tools");
+const outletFashionProduct = homeOutletShopLogo.filter(homeFashionProducts => homeFashionProducts.category ==='Fashion');
+const outletElectricalElectronicsProduct = homeOutletShopLogo.filter(homeFashionProducts => homeFashionProducts.category ==='Electrical-&-Electronics');
+const outletStationeryToolsProduct = homeOutletShopLogo.filter(homeFashionProducts => homeFashionProducts.category ==='Stationery-&-Tools');
+
+
+
+
+    // const fashionProducts = fashion.filter(fashionProduct => fashionProduct.category === "Fashion");
+    // const electricalElectronicsProducts = fashion.filter(electricalElectronicsProduct => electricalElectronicsProduct.category === "Electrical-&-Electronics");
+    // const stationeryToolsProducts = fashion.filter(stationeryProducts => stationeryProducts.category === "Stationery-&-Tools");
+
+
+
+ // State to keep track of the new item
+//  const newItem = 10;
+//  const topManB = fashionProducts.find(v=>v.brandname === "Topman Bangladesh")
+//  const freedomB = fashionProducts.find(v=>v.brandname === "Freedom Bangladesh")
+//  const styleDoorP = fashionProducts.find(v=>v.brandname === "StyleDoor")
+//  const foringP = fashionProducts.find(v=>v.brandname === "Foring")
+
+
+//  const newSamaul =[topManB, freedomB , styleDoorP, foringP]
+
+
+
+
 
 
 
@@ -28,9 +60,15 @@ const Fashion = () => {
             <div className="py-7">
                 <h3 className="text-base font-semibold lg:text-3xl lg:font-bold">Fashion</h3>
             </div>
+
+            <div>
+      
+    </div>
+           
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
+           
                 {
-                    fashionProducts.map(fashionProduct => <BrandCard key={fashionProduct.id} fashionProduct={fashionProduct}></BrandCard>)
+                    outletFashionProduct.map(fashionProduct => <BrandCard key={fashionProduct.id} fashionProduct={fashionProduct}></BrandCard>)
                 }
             </div>
             <div className="py-7">
@@ -38,7 +76,7 @@ const Fashion = () => {
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
                 {
-                    electricalElectronicsProducts.map(fashionProduct => <BrandCard key={fashionProduct.id} fashionProduct={fashionProduct}></BrandCard>)
+                    outletElectricalElectronicsProduct.map(fashionProduct => <BrandCard key={fashionProduct.id} fashionProduct={fashionProduct}></BrandCard>)
                 }
             </div>
             <div className="py-7">
@@ -46,7 +84,7 @@ const Fashion = () => {
             </div>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
                 {
-                    stationeryToolsProducts.map(fashionProduct => <BrandCard key={fashionProduct.id} fashionProduct={fashionProduct}></BrandCard>)
+                    outletStationeryToolsProduct.map(fashionProduct => <BrandCard key={fashionProduct.id} fashionProduct={fashionProduct}></BrandCard>)
                 }
             </div>
         </div>

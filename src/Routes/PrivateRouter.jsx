@@ -1,11 +1,19 @@
+// import { createContext, useState } from "react";
 
-const PrivateRouter = ({children}) => {
+// export const AuthContext = createContext();
 
-    return (
-        <div>
-            
-        </div>
-    );
-};
 
-export default PrivateRouter;
+// const PrivateRouter = ({children}) => {
+
+
+//     const [loading, setLoading] = useState(true);
+
+//     const authInfo ={
+//         loading,
+//     }
+//     return(
+//         <AuthContext.Provider value={authInfo}></AuthContext.Provider>
+//     )
+// };
+
+// export default PrivateRouter;

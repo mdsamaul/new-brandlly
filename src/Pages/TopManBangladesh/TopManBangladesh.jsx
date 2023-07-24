@@ -31,6 +31,11 @@ const TopManBangladesh = () => {
     // console.log(topManBangladeshShop);
 
 
+    // const samaul =[2,4,6,2,4,6,2,];
+    // // console.log(samaul);
+    // const shovon = samaul.find(v => v===2);
+    // console.log(shovon)
+
 
     return (
       

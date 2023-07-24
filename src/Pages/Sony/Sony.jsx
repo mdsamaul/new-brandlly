@@ -19,7 +19,7 @@ const Sony = () => {
 
     }, []);
 
-    const sonyShop = items.filter(item => item.brandname === "Sony");
+    const sonyShop = items.filter(item => item.brandname === "SONY");
     
    
 
