@@ -1,11 +1,33 @@
+import qs from 'query-string'
 import CardProductImages from "./CardProductImages/CardProductImages";
 import CardRating from "./CardRating/CardRating";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 
 const FullCardDesign = ({item}) => {
-// console.log(item.productname)
-// const productImages = item.totalImages;
-// console.log(productImages)
+
+const [params, setParams]=useSearchParams();
+
+const navigate = useNavigate();
+const handleClick =()=>{
+
+    let currentQuery ={};
+    if (params) {
+        currentQuery = qs.parse(params.toString())
+      }
+      const updatedQuery = {
+        ...currentQuery,
+        productId: item.id,
+      }
+  
+      const url = qs.stringifyUrl(
+        {
+          url: `/${item.url}`,
+          query: updatedQuery,
+        },
+        { skipNull: true }
+      )
+      navigate(url)
+}
 
     return (
         <div  className="mb-10">
@@ -25,8 +47,8 @@ const FullCardDesign = ({item}) => {
               <h3 className="px-2 text-md font-semibold"><span className="font-extrabold ">&#2547;</span> {item.price}</h3>
 
               </div>
-              <div>
-              <Link to='/'><button className="rounded-md hover: btn-outline bg-white hover:text-[#ffffff] border border-red-600 duration-500 text-md hover:bg-[#c32148] text-[#c32148]" style={{ height: '36px', width: '96px' }}>Buy Now</button></Link>
+              <div onClick={handleClick}>
+              <Link><button  className="rounded-md hover: btn-outline bg-white hover:text-[#ffffff] border border-red-600 duration-500 text-md hover:bg-[#c32148] text-[#c32148]" style={{ height: '36px', width: '96px' }}>Buy Now</button></Link>
               </div>
               </div>
             </div>

@@ -12,20 +12,47 @@ import HeaderBrandLogo from "../../component/HeaderBrandLogo/HeaderBrandLogo.jsx
 import LogoRatingVerified from "../../component/LogoRatingVerified/LogoRatingVerified.jsx";
 import BannerParallax from "../../component/BannerParallax/BannerParallax.jsx";
 import ProductTab from "../../component/ProductTab/ProductTab.jsx";
+import ProductInfo from "../../component/ProductInfo/ProductInfo.jsx";
+import { useSearchParams } from "react-router-dom";
+import Loader from "../../component/Shared/Loader/Loader.jsx";
 
 const TopManBangladesh = () => {
 
 
 
+    const [params , setParams]=useSearchParams();
+    const productId = params.get('productId');
+    // console.log('samau url ', productId);
+    const [loader, setLoader]=useState(false);
+
+
+
     const [items, SetItems] = useState([]);
+const [filteredItems, setFilteredItems] =useState([]);
 
     useEffect(() => {
+    setLoader(true);
         fetch('product.json')
             .then(res => res.json())
-            .then(data => SetItems(data))
-            .catch(error => console.log(error))
+            .then(data => {
+        if(productId){
 
-    }, []);
+            const filtered = data.filter(product => product.id == productId)
+      
+            setFilteredItems(filtered)
+        }
+        else {
+            SetItems(data)
+          }
+  
+          setLoader(false)
+        })
+        .catch(err => console.log(err))
+    }, [productId])
+  
+    if (loader) {
+      return <Loader />
+    }
 
     const topManBangladeshShop = items.filter(item => item.brandname === "Topman Bangladesh");
     // console.log(topManBangladeshShop);
@@ -36,10 +63,16 @@ const TopManBangladesh = () => {
     // const shovon = samaul.find(v => v===2);
     // console.log(shovon)
 
-
+console.log('filteredItems', filteredItems)
     return (
-      
-            <div>
+      <div>
+        {
+            filteredItems.length > 0 ?(
+                <div>
+                    <ProductInfo></ProductInfo>
+                </div>
+            ):(
+                <div>
                 <HeaderBrandLogo shoplogo={'https://www.brandlly.com/storage/logo/63e2456f974e0.png'}></HeaderBrandLogo>
                 <div className="relative w-full h-66">
                   <BannerParallax bannerimg={'https://www.brandlly.com/storage/banner/62b9890cc2f99.jpg'}></BannerParallax>
@@ -63,9 +96,16 @@ const TopManBangladesh = () => {
 
 
             </div>
+            )
+        }
+      
+      </div>
+
+
 
 
     );
 };
+
 
 export default TopManBangladesh;
