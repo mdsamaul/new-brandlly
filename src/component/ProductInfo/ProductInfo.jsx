@@ -1,50 +1,24 @@
-import ImageGallery from 'react-image-gallery';
-import "react-image-gallery/styles/css/image-gallery.css";
-import './ProductInfo.css'
+import ProductDetails from "./ProductDetails/ProductDetails";
+import ProductImages from "./ProductImages/ProductImages";
 
-const ProductInfo = () => {
-    const images = [
-  {
-    original: 'https://picsum.photos/id/1018/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1018/250/150/',
-    thumbnailPosition: 'left',
-  },
-  {
-    original: 'https://picsum.photos/id/1015/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1015/250/150/',
-    thumbnailPosition: 'left',
-  },
-  {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
-    thumbnailPosition: 'left',
-  },
-  {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
-    thumbnailPosition: 'left',
-  },
-];
+
+const ProductInfo = ({item}) => {
+
+
+
+    
+   
     return (
-        <div>           
-      <div className="container w-5/12 p-5 slider">
-      <ImageGallery
-        className="w-96"
-        items={images}
-        showFullscreenButton={true}
-        autoplay={true}
-        thumbnailPosition='left'
-        showPlayButton={false}
-        slideOnThumbnailOver={true}
-        autoPlay={true}
-        lazyLoad={true}
-      >
-
-        samaul
-      </ImageGallery>
-    </div>
+        <div className="w-full lg:flex">           
+      <div className="w-[40%]">
+        <ProductImages item={item}></ProductImages>
+      </div>
+      <div className="p-5">
+       <ProductDetails item={item}></ProductDetails>
+      </div>
         </div>
     );
 };
 
 export default ProductInfo;
+

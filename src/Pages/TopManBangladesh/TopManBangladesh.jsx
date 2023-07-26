@@ -55,21 +55,17 @@ const [filteredItems, setFilteredItems] =useState([]);
     }
 
     const topManBangladeshShop = items.filter(item => item.brandname === "Topman Bangladesh");
-    // console.log(topManBangladeshShop);
-
-
-    // const samaul =[2,4,6,2,4,6,2,];
-    // // console.log(samaul);
-    // const shovon = samaul.find(v => v===2);
-    // console.log(shovon)
-
+   
 console.log('filteredItems', filteredItems)
     return (
       <div>
         {
             filteredItems.length > 0 ?(
                 <div>
-                    <ProductInfo></ProductInfo>
+                    {
+                        filteredItems.map(item =>  <ProductInfo key={item.id} item={item}></ProductInfo>)
+                    }
+                   
                 </div>
             ):(
                 <div>

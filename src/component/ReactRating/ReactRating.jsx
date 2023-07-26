@@ -2,12 +2,13 @@ import { Rating } from '@smastrom/react-rating'
 
 import '@smastrom/react-rating/style.css'
 
-const ReactRating = () => {
+const ReactRating = ({rate}) => {
     return (
         <Rating
-          style={{ maxWidth: 180 }}
-          value={3}
+          style={{ maxWidth: 100 }}
+          value={rate}
           readOnly
+          className='py-2'
         />
       );
 };
