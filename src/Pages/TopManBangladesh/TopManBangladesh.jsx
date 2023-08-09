@@ -28,7 +28,7 @@ const TopManBangladesh = () => {
 
 
     const [items, SetItems] = useState([]);
-const [filteredItems, setFilteredItems] =useState([]);
+    const [filteredItems, setFilteredItems] =useState([]);
 
     useEffect(() => {
     setLoader(true);
@@ -56,7 +56,6 @@ const [filteredItems, setFilteredItems] =useState([]);
 
     const topManBangladeshShop = items.filter(item => item.brandname === "Topman Bangladesh");
    
-console.log('filteredItems', filteredItems)
     return (
       <div>
         {

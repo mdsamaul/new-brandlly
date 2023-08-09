@@ -2,19 +2,20 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 
-const Hooks = () => {
-    const [items, SetItems] = useState([]);
+const useHooks = () => {
+    const [samaul, Setsamaul] = useState([]);
+    const [loader, setLoader] = useState(true)
 
     useEffect(() => {
         fetch('product.json')
             .then(res => res.json())
-            .then(data => SetItems(data))
+            .then(data => Setsamaul(data))
             .catch(error => console.log(error))
-
+setLoader(false)
     }, []);
 
     
-    return items
+    return [samaul ,loader]
 };
 
-export default Hooks;
+export default useHooks;

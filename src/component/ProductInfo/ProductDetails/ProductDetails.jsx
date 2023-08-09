@@ -56,7 +56,7 @@ if(count < 0){
 
   <label className="input-group">
     <button onClick={handleMainasQuantity} className="btn btn-secondary text-2xl ">-</button>
-    <input  type="number" value={count} className="input input-bordered" />
+    <input  type="number" value={count} className="input input-bordered text-center" />
     <button onClick={handlePlusQuantity}  className="btn btn-secondary text-2xl">+</button>
   </label>
 </div>

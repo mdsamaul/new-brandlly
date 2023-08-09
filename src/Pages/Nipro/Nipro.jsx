@@ -18,6 +18,7 @@ const Nipro = () => {
             .catch(error => console.log(error))
 
     }, []);
+ 
 
     const niproShop = items.filter(item => item.brandname === "Nipro");
     
